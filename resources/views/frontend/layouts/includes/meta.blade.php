@@ -39,12 +39,12 @@
     <meta property="og:description" content="{{ $seo->description ?? $des}}" />
     <meta property="og:type" content="Website" />
     <meta property="og:url" content="{{url('')}}" />
-    <meta property="og:image" content="{{$seo->image??'https://shefat.info/seo.jpg'}}" />
+    <meta property="og:image" content="{{$seo->image??'https://shefat.info/assets/icons/meta-1200x630.png'}}" />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="400" />
 
     <meta name="twitter:title" content="{{ $seo->title ?? 'Md Shefat Masum'}}">
     <meta name="twitter:description" content="{{ $seo->description ?? $des}}">
-    <meta name="twitter:image" content="{{ $seo->image ?? 'https://shefat.info/seo.jpg'}}">
+    <meta name="twitter:image" content="{{ $seo->image ?? 'https://shefat.info/assets/icons/meta-1200x630.png'}}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="manifest" href="/manifest.json">
