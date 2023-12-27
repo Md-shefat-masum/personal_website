@@ -3,7 +3,6 @@ $meta = [
     // "meta" => [],
     "seo" => [
         "title" => "Md Shefat Masum",
-        "image" => "logo.png",
     ]
 ];
 @endphp
