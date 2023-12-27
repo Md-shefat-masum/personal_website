@@ -3,10 +3,13 @@
     <meta name="robots" content="index, follow">
     <!-- <meta http-equiv="refresh" content="5"> -->
     @php
-        $des = "Hi I am Shefat, a dedicated software engineer passionate about crafting efficient, innovative solutions for complex challenges in the tech industry.";
+        $des = "
+            Hi I am Shefat, a dedicated software engineer passionate about crafting efficient,
+            innovative solutions for complex challenges in the tech industry.
+        ";
     @endphp
 
-    <meta name="logo" content="/{{$meta->logo ?? '/assets/img/logo.png'}}">
+    <meta name="logo" content="{{$meta->logo ?? 'https://shefat.info/logo.png'}}">
     <meta name="Classification" content="Website">
     <meta name="identifier-URL" content="https://shefat.info">
     <meta name="directory" content="submission">
@@ -23,9 +26,14 @@
     <meta name="copyright" content="https://shefat.info">
     <meta name="price" content="Call for price - {{$meta->contact_number ?? '+8801646376015'}}">
 
-    <meta name="keywords" content="{{$seo->keywords ?? '
-        Web development services, Custom web development, Front-end development,
-        Back-end development, Cross-platform development, Responsive web design,
+    <meta name="keywords" content="{{$seo->keywords .',
+        shefat, shefat ullah, hungry, hungry-coder, hungry coder, shefat masum,
+        shefat-ullah-masum, muhammad shefat ullah masum, web instructor, lws, learn with,
+        learn-with-shefat, programming course, programming hero, creative it, md masum, techparkit,
+        tech-park-it, techpark it, bangla course, tutorial, shefat tutorial, react, vue, php, laravel,node,
+        express, mongo, mongoose, react native, sass, envato, themeforest, web instructor, freelancing,
+        Web development services, Custom web development, Front-end development, html course, css course,
+        Back-end development, Cross-platform development, Responsive web design, react course, php course,
         Mobile-friendly websites, E-commerce development, Content management systems (CMS), User experience (UX) design,
         Search engine optimization (SEO), Website maintenance and support, Website security, Performance optimization,
         Web application development, API integration, UI/UX design services, Web development agency,
