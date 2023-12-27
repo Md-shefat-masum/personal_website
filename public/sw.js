@@ -2,7 +2,7 @@ self.importScripts('/assets/js/plugins/localforage.min.js');
 
 var asset_cache = 'asset_cache';
 var precachedAssets = [
-    // '/',
+    '/',
 
     '/assets/website/assets/css/plugins/animate.css',
     '/assets/website/assets/css/plugins/bootstrap.min.css',
@@ -188,7 +188,7 @@ const response_and_store_cache = (e, cache_name, strategy) => {
                             // if in same url then cache
                             let url = new URL(e.request.url);
                             if (url.origin === location.origin && e.request.method === "GET") {
-                                cache.put(e.request, fetchedResponse.clone());
+                                // cache.put(e.request, fetchedResponse.clone());
                             }
                             return fetchedResponse;
                         });
@@ -200,7 +200,7 @@ const response_and_store_cache = (e, cache_name, strategy) => {
                 }
 
                 if (cachedResponse) {
-                    PreFetchedResponse(e);
+                    // PreFetchedResponse(e);
                     return cachedResponse;
                 }
 
