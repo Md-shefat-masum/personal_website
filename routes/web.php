@@ -10,6 +10,7 @@ Route::group( ['prefix'=>'', 'namespace' =>'App\Http\Controllers' ],function(){
     Route::get('/about','FrontendController@about')->name('frontend_about');
     Route::get('/contact','FrontendController@contact')->name('frontend_contact');
     Route::get('/portfolio','FrontendController@portfolio')->name('frontend_portfolio');
+    Route::get('/courses','FrontendController@courses')->name('frontend_courses');
 });
 
 Auth::routes();
