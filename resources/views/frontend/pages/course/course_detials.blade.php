@@ -3,7 +3,7 @@ $meta = [
     // "meta" => [],
     "seo" => [
         "title" => "course-details",
-        "image" => "/dummy/small/img-2.jpg",
+        "image" => asset("/uploads/courses/web-dev.jpg"),
     ]
 ];
 @endphp
