@@ -3,7 +3,7 @@ $meta = [
     // "meta" => [],
     "seo" => [
         "title" => "blogs",
-        "image" => "/dummy/small/img-2.jpg",
+        // "image" => "/dummy/small/img-2.jpg",
     ]
 ];
 @endphp

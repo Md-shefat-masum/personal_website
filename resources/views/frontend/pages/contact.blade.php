@@ -1,9 +1,9 @@
 @php
 $meta = [
     // "meta" => [],
-        "seo" => [
+    "seo" => [
         "title" => "contact",
-        "image" => "/dummy/small/img-2.jpg",
+        // "image" => "/dummy/small/img-2.jpg",
     ]
 ];
 @endphp
