@@ -51,7 +51,7 @@ $meta = [
                     <div class="col-lg-6">
                         <div class="card height-equal equal-height-lg shadow-sm">
                             <div class="text-center overflow-hidden">
-                                <img src="http://127.0.0.1:9000/uploads/course/web-dev.jpg" class="img-fluid top-radius-blog" alt="">
+                                <img src="/uploads/courses/web-dev.jpg" class="img-fluid top-radius-blog" alt="">
                                 <div class="blog-details-main border-top">
                                     <br>
                                     <h6 class="blog-bottom-details">web development batch 9</h6>
