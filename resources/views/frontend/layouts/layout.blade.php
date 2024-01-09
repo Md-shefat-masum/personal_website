@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/animate.css">
     <link rel="stylesheet" href="/assets/website/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/custom.css">
 
     @if (env('APP_ENV') != 'local')
     <!-- Google tag (gtag.js) -->

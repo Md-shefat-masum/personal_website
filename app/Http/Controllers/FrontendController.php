@@ -31,6 +31,14 @@ class FrontendController extends Controller
         return view('frontend.pages.course.courses');
     }
 
+    public function single_course($title)
+    {
+        $string = file_get_contents(public_path("courses/$title.json"));
+        $course_contents = json_decode($string, true);
+
+        return view('frontend.pages.course.course_detials',compact('course_contents'));
+    }
+
     public function contact()
     {
         return view('frontend.pages.contact');

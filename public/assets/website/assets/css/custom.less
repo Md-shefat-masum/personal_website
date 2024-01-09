@@ -1,0 +1,114 @@
+.lms_body {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 30px;
+
+    .left {
+        iframe,
+        video {
+            width: 100%;
+            border-radius: 5px;
+            min-height: 500px;
+        }
+    }
+
+    .right {
+        .milestone {
+            border-left: 2px solid #211c73;
+            list-style-type: none;
+            padding-left: 30px;
+            max-height: 512px;
+            overflow-y: auto;
+
+            >li>.heading {
+                position: relative;
+                padding-left: 11px;
+                &::after {
+                    content: '';
+                    height: 2px;
+                    background-color: #211c73;
+                    width: 30px;
+                    left: -30px;
+                    top: 10px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .heading {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 25px;
+
+            &::first-letter {
+                text-transform: capitalize;
+            }
+        }
+
+        .module {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contents {
+            list-style-type: none;
+            border: 1px solid #8080804a;
+            padding: 10px;
+
+            >li>.heading {
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                border: 1px solid #8080804a;
+                padding: 10px;
+
+                &::first-letter {
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .content_list {
+            list-style-type: none;
+            display: none;
+            li{
+                margin-bottom: 10px;
+            }
+
+
+            a {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .status_icon {
+                    width: 22px;
+                    display: inline-block;
+                }
+
+                &.active{
+                    color: #ff6d5a;
+                    .status_icon{
+                        color: #ff6d5a;
+                    }
+                }
+
+                .title {
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 18px;
+
+                    &::first-letter {
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+
+        .active {
+            .content_list{
+                display: block;
+            }
+        }
+    }
+}

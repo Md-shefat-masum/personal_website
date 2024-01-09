@@ -1,0 +1,196 @@
+[
+    {
+        "milestone" : "HTML & CSS",
+        "modules" : [
+            {
+                "title" : "Blog and Portfolio Design",
+                "contents" : [
+                    {
+                        "title" : "Blog Design usign HTML and CSS ",
+                        "videos" : [
+                            {
+                                "title" : "Intro HTML, CSS, Github, blog page design",
+                                "link" : "https://www.youtube.com/watch?v=x16Yvx07N3c"
+                            },
+                            {
+                                "title" : "More HTML CSS, Design blog details page",
+                                "link" : "https://www.youtube.com/watch?v=qlmYgKlCuSw"
+                            },
+                            {
+                                "title" : "blog details, navbar , column, image resize",
+                                "link" : "https://www.youtube.com/watch?v=NXn4mS7x8SU"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Portfolio design usign HTML and CSS",
+                        "videos" : [
+                            {
+                                "title" : "Portfolio concept, CSS Properties",
+                                "link" : "https://www.youtube.com/watch?v=iS817_3TE5g"
+                            },
+                            {
+                                "title" : "Navbar design",
+                                "link" : "https://www.youtube.com/watch?v=VBGEPKem_ek"
+                            },
+                            {
+                                "title" : "hover, button design, transition, banner design",
+                                "link" : "https://www.youtube.com/watch?v=PLe1DE6R8UA"
+                            },
+                            {
+                                "title" : "nth-child, border gradient color, border radius",
+                                "link" : "https://www.youtube.com/watch?v=x8Bj057APig"
+                            },
+                            {
+                                "title" : "CSS position, animation, make a pac-man game simulation",
+                                "link" : "https://www.youtube.com/watch?v=PRhsqT-8Bbo"
+                            },
+                            {
+                                "title" : "pseudo element after, before and flex",
+                                "link" : "https://www.youtube.com/watch?v=vYlqeh5mNfs"
+                            },
+                            {
+                                "title" : "card design, more on grid and flex",
+                                "link" : "https://www.youtube.com/watch?v=_MOE6ImMXtU"
+                            },
+                            {
+                                "title" : "gallery, pricing card",
+                                "link" : "https://www.youtube.com/watch?v=DIZ5qkhsKeA"
+                            },
+                            {
+                                "title" : "design footer",
+                                "link" : "https://www.youtube.com/watch?v=l7Db2yrJvZ4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "Figma To HTML, Lawyer website",
+                "contents" : [
+                    {
+                        "title" : "Porfolio, Landing Page",
+                        "videos" : [
+                            {
+                                "title" : "Boiler Plate setup, sass, github",
+                                "link" : "https://www.youtube.com/watch?v=flFNHqi_pSM"
+                            },
+                            {
+                                "title" : "Variables, SCSS, Post CSS, GITHUB CICD",
+                                "link" : "https://www.youtube.com/watch?v=BV2GPKdpfGc"
+                            },
+                            {
+                                "title" : "Navbar",
+                                "link" : "https://www.youtube.com/watch?v=nwDoyfxg9cM"
+                            },
+                            {
+                                "title" : "Responsive Concept, File documentation",
+                                "link" : "https://www.youtube.com/watch?v=klG3xpHEgUY"
+                            },
+                            {
+                                "title" : "Responsive Navbar",
+                                "link" : "https://www.youtube.com/watch?v=xujG4gTz2hw"
+                            },
+                            {
+                                "title" : "Banner Design",
+                                "link" : "https://www.youtube.com/watch?v=teBPSSR61Is"
+                            },
+                            {
+                                "title" : "Features Part",
+                                "link" : "https://www.youtube.com/watch?v=wrSYnZAUNNo"
+                            },
+                            {
+                                "title" : "Github Branch Control, Counter Part",
+                                "link" : "https://www.youtube.com/watch?v=QcpXvtkZLyA"
+                            },
+                            {
+                                "title" : "Github Pull request, Testimonial Part",
+                                "link" : "https://www.youtube.com/watch?v=WtHB3hngYVs"
+                            },
+                            {
+                                "title" : "Git Branch Control, FAQ Design",
+                                "link" : "https://www.youtube.com/watch?v=5j3AjiDVGL8"
+                            },
+                            {
+                                "title" : "Footer Design",
+                                "link" : "https://www.youtube.com/watch?v=Z6AaYUiZwy0"
+                            },
+                            {
+                                "title" : "Github README.MD Design and Mockup",
+                                "link" : "https://www.youtube.com/watch?v=ueaaznW6CB4"
+                            },
+                            {
+                                "title" : "SEO",
+                                "link" : "https://www.youtube.com/watch?v=xSBZ2qV1ohk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "eCommerce Website Design",
+                "contents" : [
+                    {
+                        "title" : "Header Part",
+                        "videos" : [
+                            {
+                                "title" : "Project Setup",
+                                "link" : "https://www.youtube.com/watch?v=bVITdSafFDE"
+                            },
+                            {
+                                "title" : "Jumbo Menu",
+                                "link" : "https://www.youtube.com/watch?v=97X0te7ESaA"
+                            },
+                            {
+                                "title" : "Dropdown Menu",
+                                "link" : "https://www.youtube.com/watch?v=kQ_H8R9LIFk"
+                            },
+                            {
+                                "title" : "Cart List",
+                                "link" : "https://www.youtube.com/watch?v=gDRytlvalvw"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Alpine JS",
+                        "videos" : [
+                            {
+                                "title" : "Project Setup",
+                                "link" : "https://www.youtube.com/watch?v=_9wPPTkujAs"
+                            },
+                            {
+                                "title" : "Search Modal",
+                                "link" : "https://www.youtube.com/watch?v=XlTCdG7r5Q8"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Home Page Sections",
+                        "videos" : [
+                            {
+                                "title" : "Banner and Slider",
+                                "link" : "https://www.youtube.com/watch?v=PQ7VP_wT4gc"
+                            },
+                            {
+                                "title" : "Product List",
+                                "link" : "https://www.youtube.com/watch?v=Sz910SZqFPA"
+                            },
+                            {
+                                "title" : "Coundown",
+                                "link" : "https://www.youtube.com/watch?v=IfTnDcDqo4U"
+                            },
+                            {
+                                "title" : "Shaped Background",
+                                "link" : "https://www.youtube.com/watch?v=2UXBJdkR5w8"
+                            },
+                            {
+                                "title" : "Blog List and Footer Design",
+                                "link" : "https://www.youtube.com/watch?v=hHPq51M3pX4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,92 @@
+.lms_body {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 30px;
+}
+.lms_body .left iframe,
+.lms_body .left video {
+  width: 100%;
+  border-radius: 5px;
+  min-height: 500px;
+}
+.lms_body .right .milestone {
+  border-left: 2px solid #211c73;
+  list-style-type: none;
+  padding-left: 30px;
+  max-height: 512px;
+  overflow-y: auto;
+}
+.lms_body .right .milestone > li > .heading {
+  position: relative;
+  padding-left: 11px;
+}
+.lms_body .right .milestone > li > .heading::after {
+  content: '';
+  height: 2px;
+  background-color: #211c73;
+  width: 30px;
+  left: -30px;
+  top: 10px;
+  position: absolute;
+}
+.lms_body .right .heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.lms_body .right .heading::first-letter {
+  text-transform: capitalize;
+}
+.lms_body .right .module {
+  list-style-type: none;
+  padding: 0;
+}
+.lms_body .right .contents {
+  list-style-type: none;
+  border: 1px solid #8080804a;
+  padding: 10px;
+}
+.lms_body .right .contents > li > .heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border: 1px solid #8080804a;
+  padding: 10px;
+}
+.lms_body .right .contents > li > .heading::first-letter {
+  text-transform: capitalize;
+}
+.lms_body .right .content_list {
+  list-style-type: none;
+  display: none;
+}
+.lms_body .right .content_list li {
+  margin-bottom: 10px;
+}
+.lms_body .right .content_list a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lms_body .right .content_list a .status_icon {
+  width: 22px;
+  display: inline-block;
+}
+.lms_body .right .content_list a.active {
+  color: #ff6d5a;
+}
+.lms_body .right .content_list a.active .status_icon {
+  color: #ff6d5a;
+}
+.lms_body .right .content_list a .title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+}
+.lms_body .right .content_list a .title::first-letter {
+  text-transform: capitalize;
+}
+.lms_body .right .active .content_list {
+  display: block;
+}
+/*# sourceMappingURL=./custom.css.map */

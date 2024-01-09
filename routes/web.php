@@ -5,16 +5,19 @@ use Illuminate\Support\Facades\Route;
 
 
 
+Auth::routes();
+
 Route::group( ['prefix'=>'', 'namespace' =>'App\Http\Controllers' ],function(){
     Route::get('/','FrontendController@index')->name('frontend_index');
     Route::get('/about','FrontendController@about')->name('frontend_about');
     Route::get('/contact','FrontendController@contact')->name('frontend_contact');
     Route::get('/portfolio','FrontendController@portfolio')->name('frontend_portfolio');
     Route::get('/blog','FrontendController@blog')->name('frontend_blog');
-    Route::get('/courses','FrontendController@courses')->name('frontend_courses');
+
+    Route::get('/all-courses','FrontendController@courses')->name('frontend_courses');
+    Route::get('/courses/{title}','FrontendController@single_course')->name('frontend_single_course');
 });
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
