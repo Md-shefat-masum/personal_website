@@ -55,4 +55,5 @@
     <meta name="twitter:description" content="{{ $seo->description ?? $des}}">
     <meta name="twitter:image" content="{{ $seo->image ?? 'https://shefat.info/assets/icons/meta-1200x630.png'}}">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="manifest" href="/manifest.json">
+    {{-- <link rel="manifest" href="/manifest.json"> --}}
+    {{-- <script src="{{ asset('/main.js') }}" defer></script> --}}

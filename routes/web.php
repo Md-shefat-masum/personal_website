@@ -3,19 +3,13 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('frontend.home');
+
+Route::group( ['prefix'=>'', 'namespace' =>'App\Http\Controllers' ],function(){
+    Route::get('/','FrontendController@index')->name('frontend_index');
+    Route::get('/about','FrontendController@about')->name('frontend_about');
+    Route::get('/contact','FrontendController@contact')->name('frontend_contact');
+    Route::get('/portfolio','FrontendController@portfolio')->name('frontend_portfolio');
 });
 
 Auth::routes();

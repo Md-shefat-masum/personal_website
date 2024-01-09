@@ -8,227 +8,9 @@ $meta = [
 @endphp
 @extends('frontend.layouts.layout',$meta)
 @section('contents')
-<!-- Start Hero Section -->
-<section class="cs_hero cs_style_1 cs_filled_bg" data-src="/assets/website/assets/img/bg/hero_bg.svg">
-    <div class="cs_hero_box">
-        <img src="/assets/website/assets/img/hero_img.png" alt="">
-        <div class="cs_hero_box_in wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-            <h1 class="cs_hero_title cs_font_92 cs_extra_bold cs_link cs_gradient_text_2">
-                Shefat Masum
-            </h1>
-            <p class="cs_hero_subtitle cs_font_24">
-                Do you have a project?
-                <a href="contact.html" class="cs_semi_bold cs_accent_color cs_text_btn">Let’s Talk</a>
-            </p>
-        </div>
-    </div>
-    <div class="container cs_hero_info d-flex justify-content-between">
-        <div class="cs_hero_left">
-            <ul class="cs_mp_0">
-                <li class="cs_hero_meta d-flex align-items-center">
-                    <div>
-                        <div class="cs_dot cs_accent_color cs_font_20 cs_semi_bold">
-                            Software Engineer
-                        </div>
-                        <span class="cs_white_color cs_opacity_06">
 
-                        </span>
-                    </div>
-                </li>
-                <li class="cs_hero_meta d-flex align-items-center">
-                    <div>
-                        <div class="cs_dot cs_white_color cs_opacity_06">Say hello to</div>
-                        <span class="cs_white_color">mshefat924@gmail.com</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="cs_height_75 cs_height_lg_50"></div>
-            <div class="cs_social_btns d-flex cs_gap_30">
-                <a class="cs_accent_color_2" href="#">
-                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12 1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V9H1V13H4V21H8V13H11L12 9H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </a>
-                <a class="cs_accent_color_2" href="#">
-                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M21 1.00784C21 1.00784 20.3 3.10784 19 4.40784C20.6 14.4078 9.6 21.7078 1 16.0078C3.2 16.1078 5.4 15.4078 7 14.0078C2 12.5078 -0.5 6.60784 2 2.00784C4.2 4.60784 7.6 6.10784 11 6.00784C10.1 1.80784 15 -0.592165 18 2.20784C19.1 2.20784 21 1.00784 21 1.00784Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </a>
-                <a class="cs_accent_color_2" href="#">
-                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M16 1H6C3.23858 1 1 3.23858 1 6V16C1 18.7614 3.23858 21 6 21H16C18.7614 21 21 18.7614 21 16V6C21 3.23858 18.7614 1 16 1Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path
-                            d="M14.9997 10.3701C15.1231 11.2023 14.981 12.0523 14.5935 12.7991C14.206 13.5459 13.5929 14.1515 12.8413 14.5297C12.0898 14.908 11.2382 15.0397 10.4075 14.906C9.57683 14.7723 8.80947 14.3801 8.21455 13.7852C7.61962 13.1903 7.22744 12.4229 7.09377 11.5923C6.96011 10.7616 7.09177 9.90995 7.47003 9.15843C7.84829 8.40691 8.45389 7.7938 9.20069 7.4063C9.94749 7.0188 10.7975 6.87665 11.6297 7.00006C12.4786 7.12594 13.2646 7.52152 13.8714 8.12836C14.4782 8.73521 14.8738 9.52113 14.9997 10.3701Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M16.5 5.5H16.51" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </a>
-                <a class="cs_accent_color_2" href="#">
-                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M18.13 4.09009C14.22 8.14009 9 9.44009 1.25 9.94009" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M20.7501 11.8401C14.1301 10.4301 8.61012 12.8401 4.37012 18.1601"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M7.56006 1.75C11.9301 7.75 13.5601 11.17 15.5601 19.47" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div>
-            <div class="cs_funfact cs_style_1 text-end">
-                <h2 class="cs_funfact_number cs_font_24 cs_white_color cs_semi_bold m-0">
-                    <span class="odometer" data-count-to="100"></span>%
-                </h2>
-                <div class="cs_white_color cs_opacity_06">Client Satisfaction</div>
-            </div>
-            <div class="cs_funfact cs_style_1 text-end">
-                <h2 class="cs_funfact_number cs_font_24 cs_white_color cs_semi_bold m-0">
-                    <span class="odometer" data-count-to="690"></span>+
-                </h2>
-                <div class="cs_white_color cs_opacity_06">Project Done</div>
-            </div>
-            <div class="cs_funfact cs_style_1 text-end">
-                <h2 class="cs_funfact_number cs_font_24 cs_white_color cs_semi_bold m-0">
-                    <span class="odometer" data-count-to="5"></span>+
-                </h2>
-                <div class="cs_white_color cs_opacity_06">Years Experience</div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Start Hero Section -->
-
-<!-- Start About Section -->
-<section class="position-relative">
-    <div class="position-absolute cs_about_shape_2">
-        <img src="/assets/website/assets/img/about_shape_2.svg" alt="">
-    </div>
-    <div class="cs_height_150 cs_height_lg_80"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="cs_image_box cs_style_1 position-relative">
-                    <img class="position-absolute cs_about_shape" src="/assets/website/assets/img/about_shape_1.svg"
-                        alt="About">
-                    <img class="w-100" src="/assets/website/assets/img/about_img_1.png" alt="About">
-                    <div class="cs_happy_client position-absolute cs_white_bg d-flex align-items-center cs_radius_20 cs_gap_15 wow fadeInRight"
-                        data-wow-duration="0.8s" data-wow-delay="0.2s">
-                        <p class="mb-0 cs_emoji_text">😍</p>
-                        <div>
-                            <h3 class="mb-0 cs_font_24 cs_semi_bold cs_accent_color">
-                                <span class="odometer" data-count-to="80"></span>+
-                            </h3>
-                            <p class="mb-0 cs_font_16 cs_medium">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="cs_pl_70">
-                    <div class="cs_height_40 cs_height_lg_30"></div>
-                    <div class="cs_section_heading cs_style_1">
-                        <p class="cs_section_subtitle cs_accent_color_2 cs_font_16">
-                            <span>About Me</span>
-                            <svg width="34" height="18" viewBox="0 0 34 18" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M13.164 1.06887C13.1878 2.25431 14.6046 4.16031 15.5689 3.80003C15.9856 3.63732 15.9856 3.463 15.5332 2.19621C14.4498 -0.813889 13.1402 0.115862 13.164 1.06887ZM21.0215 3.75354C20.6882 4.67168 21.843 4.83439 22.6407 3.98598C23.4502 3.11433 24.3193 1.81268 24.7836 0.929407C25.2956 0.0810016 24.2955 -0.349012 23.4621 0.348307C22.474 1.16185 21.2477 3.11433 21.0215 3.75354ZM4.61598 3.0446C3.87784 3.33515 6.35416 6.33363 7.35421 6.35687C8.52093 6.38011 8.61615 6.12443 7.80659 5.06683C6.53272 3.39327 5.46126 2.70757 4.61598 3.0446ZM15.807 7.35636C15.3665 7.78637 14.8426 8.3791 14.6403 8.65803C12.9021 11.1916 12.8783 11.2149 12.0806 10.6221C10.2353 9.274 7.1994 8.35586 7.79467 10.7035C8.16374 12.1214 9.25905 14.7131 9.54478 15.5731C10.2829 17.8394 10.6758 18.2113 11.9854 17.9091C15.2355 17.1421 19.8787 17.1188 23.2003 17.851C24.0217 18.037 24.0693 17.944 24.1527 16.3285C24.3194 13.0628 26.248 9.87833 26.248 8.8556C26.248 7.70502 24.0217 8.56505 20.9978 10.8778L20.6882 11.1103L20.2477 10.8197C19.3429 10.227 18.8905 10.6919 19.4024 11.6797C19.8191 12.4817 20.1644 12.749 21.0811 12.319C21.6049 12.0749 22.3311 11.61 23.355 10.9011C23.7598 10.6221 24.0932 10.4246 24.0932 10.4594C24.0932 10.6221 23.3669 13.6671 23.3669 13.6787L21.5573 13.5276C20.1167 13.4695 19.9501 14.2133 21.4382 14.4342C21.593 14.4574 23.1169 14.6434 23.1169 14.6434C23.1169 14.6434 23.0574 15.2942 22.8907 15.6661C22.7121 16.038 22.4145 16.131 21.9264 15.9683C18.1047 14.7363 11.8782 16.2356 11.8663 16.2356C11.6401 16.2704 9.56861 10.9359 9.73528 10.7732C9.75909 10.75 10.0091 10.9011 10.2948 11.1103C13.5211 13.3998 13.8545 13.3301 15.9856 9.99456L16.9856 8.42559L17.3785 8.99507C18.5214 10.657 20.1405 9.92483 19.2357 8.70452C18.9262 8.29775 18.4143 7.6934 17.5928 6.75202C17.2238 6.32201 16.6761 6.50795 15.807 7.35636ZM31.2959 7.18203C30.8673 7.42609 28.6291 9.51805 28.3672 9.9132C27.8076 10.7848 28.9743 10.9824 30.0339 10.1921C31.2721 9.27399 33.0222 7.69341 33.0222 7.48421C33.0341 7.06582 31.8793 6.85661 31.2959 7.18203ZM1.8063 12.749C3.54448 13.1674 4.54451 13.272 4.93739 13.0628C5.58028 12.7257 5.28265 12.4817 3.75877 12.1098C3.6159 12.0749 2.21106 11.6914 1.24672 11.6914C0.556213 11.6914 -0.979555 12.0633 1.8063 12.749Z"
-                                    fill="#342EAD" />
-                            </svg>
-                        </p>
-                        <h2 class="cs_section_title cs_font_48 cs_semi_bold">Why you <span
-                                class="cs_accent_color">hire me
-                            </span>
-                            for your <span class="cs_accent_color_2">next project?</span></h2>
-                    </div>
-                    <div class="cs_height_40 cs_height_lg_30"></div>
-                    <div class="cs_tabs cs_style_1">
-                        <ul class="cs_tab_links cs_mp_0">
-                            <li class="active"><a class="text-uppercase " href="404-2.html">Myself</a></li>
-                            <li><a class="text-uppercase " href="404-3.html">Education</a></li>
-                            <li><a class="text-uppercase " href="404-4.html">My tools</a></li>
-                        </ul>
-                        <div class="cs_tab_body">
-                            <div class="cs_tab active" data-id="myself">
-                                <p class="m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                                    commodo ligula eget
-                                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                                    montes, nascetur
-                                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                                    quis, sem aenean massa
-                                    ultricies nec.</p>
-                                <div class="cs_height_30 cs_height_lg_20"></div>
-                                <a class="cs_btn cs_style_1" href="contact.html"><span>Hire Me</span></a>
-                            </div>
-                            <div class="cs_tab" data-id="education">
-                                <p class="m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                                    commodo ligula eget
-                                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                                    montes, nascetur
-                                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                                    quis, sem aenean massa
-                                    ultricies nec.</p>
-                            </div>
-                            <div class="cs_tab" data-id="tools">
-                                <h2 class="cs_font_20 cs_accent_color">Skills</h2>
-                                <div class="cs_progressbar cs_style_1">
-                                    <div class="label cs_font_20 cs_primary_color">HTML</div>
-                                    <h3
-                                        class="cs_progressbar_head cs_accent_color cs_normal cs_font_14 text-end">
-                                        89%</h3>
-                                    <div class="cs_progress" data-progress="89">
-                                        <div class="cs_progress_in"></div>
-                                    </div>
-                                </div>
-                                <div class="cs_progressbar cs_style_1">
-                                    <div class="label cs_font_20 cs_primary_color">ReactJS</div>
-                                    <h3
-                                        class="cs_progressbar_head cs_accent_color cs_normal cs_font_14 text-end">
-                                        95%</h3>
-                                    <div class="cs_progress" data-progress="95">
-                                        <div class="cs_progress_in"></div>
-                                    </div>
-                                </div>
-                                <div class="cs_progressbar cs_style_1">
-                                    <div class="label cs_font_20 cs_primary_color">WordPress</div>
-                                    <h3
-                                        class="cs_progressbar_head cs_accent_color cs_normal cs_font_14 text-end">
-                                        70%</h3>
-                                    <div class="cs_progress" data-progress="70">
-                                        <div class="cs_progress_in"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cs_height_150 cs_height_lg_80"></div>
-</section>
-<!-- End About Section -->
+@include('frontend.pages.home.banner')
+@include('frontend.pages.home.about')
 
 <!-- Start Service Section -->
 <section class="cs_100_bg position-relative" data-src="/assets/website/assets/img/bg/service_bg.png">
@@ -523,129 +305,79 @@ $meta = [
     <div class="container">
         <div class="cs_isotop cs_isotop_col_2 cs_has_gutter_40">
             <div class="cs_grid_sizer"></div>
-            <div class="cs_isotop_item">
-                <div class="cs_section_heading cs_style_1">
-                    <p class="cs_section_subtitle cs_accent_color_2 cs_font_16 wow fadeInLeft"
-                        data-wow-duration="0.8s" data-wow-delay="0.2s">
-                        <span>Testimonials</span>
-                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M6.32185 0.162195C5.92711 0.458249 6.20673 1.29707 6.83174 1.70825C7.35805 2.05365 9.61133 2.16878 11.2561 1.95496C15.7627 1.34641 18.2298 2.57997 17.9831 5.2938C17.6377 9.27408 17.5719 12.0866 17.8186 13.4353C18.0982 14.9978 18.0653 14.8826 17.539 14.4879C17.0292 14.1096 15.8614 13.3366 15.2035 12.9254C14.6607 12.5965 13.7232 12.1195 13.5423 12.728C13.2462 13.7313 12.358 15.2774 11.5686 16.33C9.77579 18.7149 6.32185 19.2577 3.36131 18.7478C2.11131 18.534 2.07841 18.1063 2.12775 17.1688C2.29223 13.8136 2.52246 4.86616 2.9172 2.97471C3.11457 2.02076 3.34485 1.85628 4.08498 1.64246C5.38433 1.28062 4.4962 0.655619 2.96659 0.836541C1.89751 0.968121 1.28895 1.36286 0.910659 2.76089C0.334999 4.9484 0.400789 8.92867 0.0060502 17.0702C-0.0926344 18.9781 1.02579 19.636 2.63764 19.8004C3.59159 19.8991 5.03895 19.932 7.47317 19.9649C10.4995 19.9978 12.0126 20.0471 13.0324 19.8991C14.1837 19.7346 14.6936 19.3235 16.0588 18.4188C20.368 15.5241 20.2035 15.7873 20.2199 11.9714C20.2528 3.22142 19.0357 0.984568 14.0686 0.754304C12.6212 0.688514 11.2232 0.524037 10.6969 0.37601C9.3153 -0.00228091 6.71659 -0.133858 6.32185 0.162195ZM9.24946 4.83327C8.0488 4.93195 7.63768 5.82011 8.65742 6.09972C9.49624 6.32998 13.7067 6.37932 15.1048 6.2313C15.96 6.13261 15.6146 5.52406 14.9238 5.228C13.9041 4.78392 11.8153 4.61945 9.24946 4.83327ZM7.17715 8.18854C4.34819 8.32012 5.08831 9.09315 6.33831 9.33986C8.87122 9.83328 15.5982 9.89908 15.5982 9.24118C15.5982 8.33657 12.3745 7.94183 7.17715 8.18854ZM7.19353 13.6984C8.3613 13.6655 10.6969 13.4682 11.1245 13.3366C11.8647 13.1063 10.8449 12.3168 9.56203 12.1359C7.83504 11.8892 7.11129 11.8234 6.70011 11.8563C4.52905 11.9714 5.483 13.7478 7.19353 13.6984ZM17.8021 15.5405C17.6048 15.6886 15.7133 17.5965 13.4436 18.5504C12.5883 18.9123 12.1442 18.8629 12.7034 18.1392C13.1475 17.3333 14.6772 13.9287 15.0555 13.9287C15.2693 13.9451 17.8021 15.5405 17.8021 15.5405Z"
-                                fill="#342EAD" />
-                        </svg>
-                    </p>
-                    <h2 class="cs_section_title cs_font_48 cs_semi_bold">What <span class="cs_accent_color">my
-                            client</span><br>have to say<br><span class="cs_accent_color_2">about me</span>
-                    </h2>
-                </div>
-                <div class="cs_height_75"></div>
-            </div>
-            <div class="cs_isotop_item">
-                <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
-                    data-src="/assets/website/assets/img/bg/testimonial_bg.svg">
-                    <a href="https://www.youtube.com/embed/zE_WFiHnSlY?list=PLaoLNlo4d8-044EScxyu33SC9BJF5IeeH"
-                        class="cs_testmonial_thumbnail position-relative cs_accent_color_2 cs_filled_bg cs_video_open"
-                        data-src="/assets/website/assets/img/testmonial/av.jpg">
-                        <div class="position-absolute top-0 start-0 cs_center h-100 w-100">
-                            <div
-                                class="cs_player cs_style_1 cs_transition_3 cs_center cs_white_bg rounded-circle">
-                                <svg width="15" height="18" viewBox="0 0 15 18" fill="none"
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cs_isotop_item">
+                        <div class="cs_section_heading cs_style_1">
+                            <p class="cs_section_subtitle cs_accent_color_2 cs_font_16 wow fadeInLeft"
+                                data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                <span>Testimonials</span>
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 0V18L14.1429 9L0 0Z" fill="currentColor" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.32185 0.162195C5.92711 0.458249 6.20673 1.29707 6.83174 1.70825C7.35805 2.05365 9.61133 2.16878 11.2561 1.95496C15.7627 1.34641 18.2298 2.57997 17.9831 5.2938C17.6377 9.27408 17.5719 12.0866 17.8186 13.4353C18.0982 14.9978 18.0653 14.8826 17.539 14.4879C17.0292 14.1096 15.8614 13.3366 15.2035 12.9254C14.6607 12.5965 13.7232 12.1195 13.5423 12.728C13.2462 13.7313 12.358 15.2774 11.5686 16.33C9.77579 18.7149 6.32185 19.2577 3.36131 18.7478C2.11131 18.534 2.07841 18.1063 2.12775 17.1688C2.29223 13.8136 2.52246 4.86616 2.9172 2.97471C3.11457 2.02076 3.34485 1.85628 4.08498 1.64246C5.38433 1.28062 4.4962 0.655619 2.96659 0.836541C1.89751 0.968121 1.28895 1.36286 0.910659 2.76089C0.334999 4.9484 0.400789 8.92867 0.0060502 17.0702C-0.0926344 18.9781 1.02579 19.636 2.63764 19.8004C3.59159 19.8991 5.03895 19.932 7.47317 19.9649C10.4995 19.9978 12.0126 20.0471 13.0324 19.8991C14.1837 19.7346 14.6936 19.3235 16.0588 18.4188C20.368 15.5241 20.2035 15.7873 20.2199 11.9714C20.2528 3.22142 19.0357 0.984568 14.0686 0.754304C12.6212 0.688514 11.2232 0.524037 10.6969 0.37601C9.3153 -0.00228091 6.71659 -0.133858 6.32185 0.162195ZM9.24946 4.83327C8.0488 4.93195 7.63768 5.82011 8.65742 6.09972C9.49624 6.32998 13.7067 6.37932 15.1048 6.2313C15.96 6.13261 15.6146 5.52406 14.9238 5.228C13.9041 4.78392 11.8153 4.61945 9.24946 4.83327ZM7.17715 8.18854C4.34819 8.32012 5.08831 9.09315 6.33831 9.33986C8.87122 9.83328 15.5982 9.89908 15.5982 9.24118C15.5982 8.33657 12.3745 7.94183 7.17715 8.18854ZM7.19353 13.6984C8.3613 13.6655 10.6969 13.4682 11.1245 13.3366C11.8647 13.1063 10.8449 12.3168 9.56203 12.1359C7.83504 11.8892 7.11129 11.8234 6.70011 11.8563C4.52905 11.9714 5.483 13.7478 7.19353 13.6984ZM17.8021 15.5405C17.6048 15.6886 15.7133 17.5965 13.4436 18.5504C12.5883 18.9123 12.1442 18.8629 12.7034 18.1392C13.1475 17.3333 14.6772 13.9287 15.0555 13.9287C15.2693 13.9451 17.8021 15.5405 17.8021 15.5405Z"
+                                        fill="#342EAD" />
                                 </svg>
-                            </div>
+                            </p>
+                            <h2 class="cs_section_title cs_font_48 cs_semi_bold">What <span class="cs_accent_color">my
+                                    client</span><br>have to say<br><span class="cs_accent_color_2">about me</span>
+                            </h2>
                         </div>
-                    </a>
-                    <div class="cs_testimonial_in">
-                        <div class="cs_tastimonial_avater">
-                            <h2 class="cs_testmonial_name cs_font_28 cs_medium mb-0">Michel Smith</h2>
-                            <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner</p>
-                        </div>
+                        <div class="cs_height_75"></div>
                     </div>
                 </div>
-            </div>
-            <div class="cs_isotop_item">
-                <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
-                    data-src="/assets/website/assets/img/bg/testimonial_bg.svg">
-                    <div class="cs_testimonial_in">
-                        <div class="cs_testmonial_icon">
-                            <svg width="49" height="36" viewBox="0 0 49 36" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z"
-                                    stroke="#342EAD" stroke-width="2" />
-                            </svg>
+                <div class="col-md-6">
+                    <div class="cs_isotop_item" style="width: unset;">
+                        <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg" data-src="/assets/website/assets/img/bg/testimonial_bg.svg" style="background-image: url(&quot;assets/website/assets/img/bg/testimonial_bg.svg&quot;);">
+                            <div class="cs_testimonial_in">
+                                <div class="cs_testmonial_icon">
+                                    <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z" stroke="#342EAD" stroke-width="2"></path>
+                                    </svg>
 
-                        </div>
-                        <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor. Aenean massa.</p>
-                        <div class="cs_tastimonial_avater d-flex align-items-center">
-                            <img src="/assets/website/assets/img/testmonial/a2.jpg" alt="avatar_img">
-                            <div class="cs_ml_20">
-                                <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Adnan</h2>
-                                <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
-                                </p>
+                                </div>
+                                <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    Aenean commodo
+                                    ligula eget dolor. Aenean massa.</p>
+                                <div class="cs_tastimonial_avater d-flex align-items-center">
+                                    <img src="/assets/website/assets/img/testmonial/a2.jpg" alt="avatar_img">
+                                    <div class="cs_ml_20">
+                                        <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Adnan</h2>
+                                        <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cs_isotop_item">
-                <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
-                    data-src="/assets/website/assets/img/bg/testimonial_bg.svg">
-                    <div class="cs_testimonial_in">
-                        <div class="cs_testmonial_icon">
-                            <svg width="49" height="36" viewBox="0 0 49 36" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z"
-                                    stroke="#342EAD" stroke-width="2" />
-                            </svg>
+                <div class="col-md-6">
+                    <div class="cs_isotop_item" style="width: unset;">
+                        <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg" data-src="/assets/website/assets/img/bg/testimonial_bg.svg" style="background-image: url(&quot;assets/website/assets/img/bg/testimonial_bg.svg&quot;);">
+                            <div class="cs_testimonial_in">
+                                <div class="cs_testmonial_icon">
+                                    <svg width="49" height="36" viewBox="0 0 49 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z" stroke="#342EAD" stroke-width="2"></path>
+                                    </svg>
 
-                        </div>
-                        <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor. Aenean massa.</p>
-                        <div class="cs_tastimonial_avater d-flex align-items-center">
-                            <img src="/assets/website/assets/img/testmonial/a1.jpg" alt="avatar_img">
-                            <div class="cs_ml_20">
-                                <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Jone Lee</h2>
-                                <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
-                                </p>
+                                </div>
+                                <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    Aenean commodo
+                                    ligula eget dolor. Aenean massa.</p>
+                                <div class="cs_tastimonial_avater d-flex align-items-center">
+                                    <img src="/assets/website/assets/img/testmonial/a2.jpg" alt="avatar_img">
+                                    <div class="cs_ml_20">
+                                        <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Adnan</h2>
+                                        <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="cs_isotop_item">
-                <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
-                    data-src="/assets/website/assets/img/bg/testimonial_bg.svg">
-                    <div class="cs_testimonial_in">
-                        <div class="cs_testmonial_icon">
-                            <svg width="49" height="36" viewBox="0 0 49 36" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z"
-                                    stroke="#342EAD" stroke-width="2" />
-                            </svg>
 
-                        </div>
-                        <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor. Aenean massa.</p>
-                        <div class="cs_tastimonial_avater d-flex align-items-center">
-                            <img src="/assets/website/assets/img/testmonial/a3.jpg" alt="avatar_img">
-                            <div class="cs_ml_20">
-                                <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Lucky</h2>
-                                <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <div class="cs_height_150 cs_height_lg_80"></div>
@@ -653,7 +385,7 @@ $meta = [
 <!-- End Testimonial Section -->
 
 <!-- Start Blog Section -->
-<section class="cs_100_bg" data-src="/assets/website/assets/img/bg/blog_bg_1.png">
+<section class="cs_100_bg" style="background-image: url('/assets/website/assets/img/bg/blog_bg_1.png')" data-src="/assets/website/assets/img/bg/blog_bg_1.png">
     <div class="cs_height_150 cs_height_lg_75"></div>
     <div class="container">
         <div class="row">

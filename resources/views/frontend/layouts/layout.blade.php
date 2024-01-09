@@ -23,8 +23,14 @@
     <script src="{{ asset('/assets/js/plugins/turbolinks.min.js') }}"></script>
     <script src="{{ asset('/assets/js/plugins/sweetalert.js') }}"></script>
     <script src="{{ asset('/assets/js/plugins/axios.js') }}"></script>
+    <script src="/assets/website/assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script defer src="/assets/website/assets/js/plugins/gsap.min.js"></script>
+    {{-- <script src="/assets/website/assets/js/plugins/wow.min.js"></script> --}}
+    {{-- <script src="/assets/website/assets/js/plugins/isotope.pkg.min.js"></script> --}}
+    <script src="/assets/website/assets/js/plugins/odometer.min.js"></script>
+    <script src="/assets/website/assets/js/main.js"></script>
+
     <script src="{{ asset('/assets/js/frontend.js') }}" defer></script>
-    <script src="{{ asset('/main.js') }}" defer></script>
 
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/fontawesome.min.css">
@@ -32,19 +38,51 @@
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/select2.min.css">
     <link rel="stylesheet" href="/assets/website/assets/css/plugins/animate.css">
     <link rel="stylesheet" href="/assets/website/assets/css/style.css">
+
+    @if (env('APP_ENV') != 'local')
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN023B9MCX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YN023B9MCX');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P9MCWSJ7');
+    </script>
+    <!-- End Google Tag Manager -->
+    @endif
 </head>
 
 <body>
+    @if (env('APP_ENV') != 'local')
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9MCWSJ7"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    @endif
+
     <div class="cs_preloader cs_center">
         <div class="cs_preloader_in"></div>
     </div>
-    <!-- Start Header Section -->
+    <span class="cs_cursor_lg d"></span>
+    <span class="cs_cursor_sm"></span>
+
     <header class="cs_site_header cs_style_1 cs_sticky_header">
         <div class="cs_main_header">
             <div class="container">
                 <div class="cs_main_header_in">
                     <div class="cs_main_header_left">
-                        <a class="cs_site_branding" href="index.html">
+                        <a class="cs_site_branding" href="/">
                             <img src="/assets/website/assets/img/logo.png" alt="Logo">
                         </a>
                     </div>
@@ -69,7 +107,7 @@
     <!-- Main content inside end-->
 
     <!-- Start Footer -->
-    <footer class="cs_footer cs_style_1 cs_filled_bg position-relative" data-src="/assets/website/assets/img/bg/footer_bg.svg">
+    <footer class="cs_footer cs_style_1 cs_filled_bg position-relative" style="background-image: url('/assets/website/assets/img/bg/footer_bg.svg')" data-src="/assets/website/assets/img/bg/footer_bg.svg">
         <div class="position-absolute cs_footer_shape_1">
             <img src="/assets/website/assets/img/footer_shape.svg" alt="">
         </div>
@@ -101,13 +139,6 @@
     </div>
     <!-- End video popup -->
 
-    <!-- Script -->
-    <script src="/assets/website/assets/js/plugins/jquery-3.6.0.min.js"></script>
-    <script src="/assets/website/assets/js/plugins/gsap.min.js"></script>
-    <script src="/assets/website/assets/js/plugins/isotope.pkg.min.js"></script>
-    <script src="/assets/website/assets/js/plugins/odometer.min.js"></script>
-    <script src="/assets/website/assets/js/plugins/wow.min.js"></script>
-    <script src="/assets/website/assets/js/main.js"></script>
 </body>
 
 </html>
