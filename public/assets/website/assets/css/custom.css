@@ -1,3 +1,11 @@
+@media (max-width: 991.9px) {
+  .cs_hero.cs_style_3 {
+    height: 265px;
+  }
+  .cs_hero.cs_style_3 .cs_gradient_text_2 {
+    font-size: 25px;
+  }
+}
 .lms_body {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -8,6 +16,15 @@
   width: 100%;
   border-radius: 5px;
   min-height: 500px;
+}
+@media (max-width: 991.9px) {
+  .lms_body {
+    grid-template-columns: 1fr;
+  }
+  .lms_body .left iframe,
+  .lms_body .left video {
+    min-height: 150px;
+  }
 }
 .lms_body .right .milestone {
   border-left: 2px solid #211c73;

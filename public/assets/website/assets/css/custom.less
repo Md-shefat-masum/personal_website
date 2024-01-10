@@ -1,14 +1,37 @@
+.cs_hero.cs_style_3 {
+    @media (max-width: 991.9px) {
+        height: 265px;
+
+        .cs_gradient_text_2 {
+            font-size: 25px;
+        }
+    }
+}
+
 .lms_body {
     display: grid;
     grid-template-columns: 1fr 400px;
     gap: 30px;
 
     .left {
+
         iframe,
         video {
             width: 100%;
             border-radius: 5px;
             min-height: 500px;
+        }
+    }
+
+    @media (max-width: 991.9px) {
+        grid-template-columns: 1fr;
+
+        .left {
+
+            iframe,
+            video {
+                min-height: 150px;
+            }
         }
     }
 
@@ -23,6 +46,7 @@
             >li>.heading {
                 position: relative;
                 padding-left: 11px;
+
                 &::after {
                     content: '';
                     height: 2px;
@@ -72,7 +96,8 @@
         .content_list {
             list-style-type: none;
             display: none;
-            li{
+
+            li {
                 margin-bottom: 10px;
             }
 
@@ -87,9 +112,10 @@
                     display: inline-block;
                 }
 
-                &.active{
+                &.active {
                     color: #ff6d5a;
-                    .status_icon{
+
+                    .status_icon {
                         color: #ff6d5a;
                     }
                 }
@@ -107,7 +133,7 @@
         }
 
         .active {
-            .content_list{
+            .content_list {
                 display: block;
             }
         }
