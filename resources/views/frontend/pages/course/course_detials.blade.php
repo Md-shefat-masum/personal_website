@@ -2,7 +2,7 @@
 $meta = [
     // "meta" => [],
     "seo" => [
-        "title" => "course-details",
+        "title" => $content_title?$content_title:$title,
         "image" => asset("/uploads/courses/web-dev.jpg"),
     ]
 ];
@@ -17,7 +17,7 @@ $meta = [
 
 <section>
     <div class="cs_height_115 cs_height_lg_70"></div>
-    <div class="container-fluid">
+    <div class="container-xxl">
         <div class="lms_body">
             <div class="left">
                 <div id="video_part">
@@ -49,7 +49,7 @@ $meta = [
                                                     <ul class="content_list">
                                                         @foreach ($content["videos"] as $video)
                                                             <li>
-                                                                <a data-turbolinks="false" href="?v={{$video["link"]}}">
+                                                                <a data-turbolinks="false" href="{{ route('frontend_single_course_content',[$title,Str::slug($video["title"])]) }}?v={{$video["link"]}}">
                                                                     <i class="fa status_icon fa-play"></i>
                                                                     <span class="title">
                                                                         {{$video["title"]}}
@@ -98,8 +98,18 @@ $meta = [
     }
 
     let key = new URL(location.href).searchParams.get('v');
-    $(`a[href="?v=${key}"]`).addClass('active');
-    $(`a[href="?v=${key}"]`)[0].scrollIntoView();
+    $(`a[href="${location.href}"]`).addClass('active');
+    $(`.milestone`)[0].scrollTo({
+        top: $(`a[href="${location.href}"]`)[0].offsetTop - $(`.milestone`)[0].offsetTop - 100,
+        left: 0,
+        behavior: "smooth",
+    });
+    $(`html`)[0].scrollTo({
+        top: $(`.milestone`)[0].offsetTop - 100,
+        left: 0,
+        behavior: "smooth",
+    });
+    // $(`a[href="${location.href}"]`)[0].scrollIntoView();
 
     // change_video();
 </script>
