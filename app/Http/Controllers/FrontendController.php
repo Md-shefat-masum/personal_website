@@ -31,12 +31,12 @@ class FrontendController extends Controller
         return view('frontend.pages.course.courses');
     }
 
-    public function single_course($title)
+    public function single_course($title, $content_title = null)
     {
         $string = file_get_contents(public_path("courses/$title.json"));
         $course_contents = json_decode($string, true);
 
-        return view('frontend.pages.course.course_detials',compact('course_contents'));
+        return view('frontend.pages.course.course_detials',compact('course_contents','title','content_title'));
     }
 
     public function contact()
