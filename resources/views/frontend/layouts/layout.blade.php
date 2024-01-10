@@ -72,9 +72,9 @@
     <!-- End Google Tag Manager (noscript) -->
     @endif
 
-    <div class="cs_preloader cs_center">
+    {{-- <div class="cs_preloader cs_center">
         <div class="cs_preloader_in"></div>
-    </div>
+    </div> --}}
     <span class="cs_cursor_lg d"></span>
     <span class="cs_cursor_sm"></span>
 

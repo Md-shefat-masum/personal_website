@@ -14,7 +14,6 @@ $meta = [
     "heading" => "contents",
     'page' => $title. ($content_title ? " / ".$content_title : '')
 ])
-
 <section>
     <div class="cs_height_115 cs_height_lg_70"></div>
     <div class="container-xxl">
