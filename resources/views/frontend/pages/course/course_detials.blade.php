@@ -10,9 +10,9 @@ $meta = [
 @extends('frontend.layouts.layout',$meta)
 @section('contents')
 @include("frontend.layouts.includes.page_banner",[
-    "sub_heading" => "skill up",
-    "heading" => "course details",
-    'page' => "course-details"
+    "sub_heading" => Str::replace('-',' ',$content_title),
+    "heading" => "contents",
+    'page' => $title. ($content_title ? " / ".$content_title : '')
 ])
 
 <section>
