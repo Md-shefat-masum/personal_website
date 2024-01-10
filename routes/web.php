@@ -16,6 +16,7 @@ Route::group( ['prefix'=>'', 'namespace' =>'App\Http\Controllers' ],function(){
 
     Route::get('/all-courses','FrontendController@courses')->name('frontend_courses');
     Route::get('/courses/{title}','FrontendController@single_course')->name('frontend_single_course');
+    Route::get('/courses/{title}/{content_title?}','FrontendController@single_course')->name('frontend_single_course_content');
 });
 
 
