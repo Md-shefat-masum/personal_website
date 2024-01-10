@@ -98,6 +98,10 @@ $meta = [
     }
 
     let key = new URL(location.href).searchParams.get('v');
+    if(!key){
+        location.href = $(`.content_list a`)[0].href;
+    }
+
     $(`a[href="${location.href}"]`).addClass('active');
     $(`.milestone`)[0].scrollTo({
         top: $(`a[href="${location.href}"]`)[0].offsetTop - $(`.milestone`)[0].offsetTop - 100,
