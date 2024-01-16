@@ -12,11 +12,20 @@ Route::group( ['prefix'=>'', 'namespace' =>'App\Http\Controllers' ],function(){
     Route::get('/about','FrontendController@about')->name('frontend_about');
     Route::get('/contact','FrontendController@contact')->name('frontend_contact');
     Route::get('/portfolio','FrontendController@portfolio')->name('frontend_portfolio');
+
     Route::get('/blog','FrontendController@blog')->name('frontend_blog');
+    Route::get('/blog/{slug}','FrontendController@blog_details')->name('frontend_blog_details');
 
     Route::get('/all-courses','FrontendController@courses')->name('frontend_courses');
     Route::get('/courses/{title}','FrontendController@single_course')->name('frontend_single_course');
     Route::get('/courses/{title}/{content_title?}','FrontendController@single_course')->name('frontend_single_course_content');
+});
+
+Route::group( ['prefix'=>'cms', 'namespace' =>'App\Http\Controllers' ],function(){
+    Route::group( ['prefix'=>'blog'],function(){
+        Route::get('/create','Cms\BlogController@create');
+        Route::post('/create','Cms\BlogController@store');
+    });
 });
 
 
