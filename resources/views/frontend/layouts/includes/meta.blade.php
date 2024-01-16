@@ -27,7 +27,7 @@
     <meta name="price" content="Call for price - {{$meta->contact_number ?? '+8801646376015'}}">
 
     <meta name="keywords" content="{{($seo->keywords??'') .',
-        shefat, shefat ullah, hungry, hungry-coder, hungry coder, shefat masum,
+        shefat, shefat ullah, sifat, hungry, hungry-coder, hungry coder, shefat masum,
         shefat-ullah-masum, muhammad shefat ullah masum, web instructor, lws, learn with,
         learn-with-shefat, programming course, programming hero, creative it, md masum, techparkit,
         tech-park-it, techpark it, bangla course, tutorial, shefat tutorial, react, vue, php, laravel,node,
