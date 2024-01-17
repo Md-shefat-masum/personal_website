@@ -53,7 +53,7 @@ $meta = [
                         <div class="cs_blog cs_style_1 cs_transition_4">
                             <div class="flex-none">
                                 <a href="{{ route('frontend_blog_details',$blog->slug) }}" class="cs_blog_thumbnail cs_zoom">
-                                    <img class="cs_zoom_in" src="/{{$blog->image}}" alt="" />
+                                    <img class="cs_zoom_in fit_square_image" src="/{{$blog->image}}" alt="{{$blog->image_meta}}" />
                                 </a>
                             </div>
                             <div class="cs_blog_info">
