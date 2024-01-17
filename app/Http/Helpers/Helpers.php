@@ -2,6 +2,7 @@
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Inspiring;
+use Illuminate\Support\Str;
 
 function carbon($date = null, $format = "d-m-Y")
 {
@@ -11,4 +12,8 @@ function carbon($date = null, $format = "d-m-Y")
 
 function random_quote() {
     return Inspiring::quote();
+}
+
+function slug($str=''){
+    return Str::slug($str);
 }
