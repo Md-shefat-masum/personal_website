@@ -23,22 +23,20 @@ class FrontendController extends Controller
 
     public function blog()
     {
-        $string = file_get_contents(public_path("blogs/web_development.json"));
+        $string = file_get_contents(public_path("blog_files/web_development.json"));
         $contents = json_decode($string, true);
         return view('frontend.pages.blog.blogs',compact('contents'));
     }
 
     public function blog_details($slug)
     {
-        $string = file_get_contents(public_path("blogs/web_development.json"));
+        $string = file_get_contents(public_path("blog_files/web_development.json"));
         $contents = json_decode($string, true);
         $content = (object) [];
 
-        for ($i=0; $i < count($contents); $i++) {
-            if(strcmp( $contents[$i]['slug'] , $slug) != 0){
-                $content = (object) $contents[$i];
-                break;
-            }
+        $index = array_search($slug, array_column($contents, 'slug'));
+        if($index !== false){
+            $content = (object) $contents[$index];
         }
         return view('frontend.pages.blog.blog_details',compact('content'));
     }
