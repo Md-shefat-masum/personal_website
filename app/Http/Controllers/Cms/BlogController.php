@@ -20,7 +20,7 @@ class BlogController extends Controller
 
     public function store()
     {
-        $json_source = public_path("blogs/web_development.json");
+        $json_source = public_path("blog_files/web_development.json");
         $string = file_get_contents($json_source);
         $contents = json_decode($string, true);
 
@@ -31,7 +31,7 @@ class BlogController extends Controller
             "date" => request()->date,
             "writer" => request()->writer,
             "seo_title" => request()->seo_title,
-            "seo_keywords" => request()->seo_keywords,
+            "seo_keywords" => slug(request()->seo_keywords),
             "seo_description" => request()->seo_description,
             "image_meta" => request()->image_meta,
             "image" => "",
@@ -39,8 +39,7 @@ class BlogController extends Controller
         ];
 
         if(request()->hasFile('image')){
-            $temp["image"] = Storage::putFileAs('blogs/images',request()->file('image'),Str::slug(request()->title).'.'.request()->file('image')->extension());
-            $temp["image"] .= request()->file('image')->extension();
+            $temp["image"] = Storage::putFileAs('blog_files/images',request()->file('image'),Str::slug(request()->title).'.'.request()->file('image')->extension());
         }
 
         array_unshift($contents, $temp);
