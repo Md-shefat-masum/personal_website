@@ -48,8 +48,8 @@
     <meta property="og:type" content="Website" />
     <meta property="og:url" content="{{url('')}}" />
     <meta property="og:image" content="{{$seo->image??'https://shefat.info/assets/icons/meta-1200x630.png'}}" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="400" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <meta name="twitter:title" content="{{ $seo->title ?? 'Md Shefat Masum'}}">
     <meta name="twitter:description" content="{{ $seo->description ?? $des}}">
