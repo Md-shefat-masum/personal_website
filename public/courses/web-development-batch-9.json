@@ -197,6 +197,19 @@
                                 "link" : "https://www.youtube.com/watch?v=Eund2_YU89I"
                             }
                         ]
+                    },
+                    {
+                        "title" : "Responsive Desing",
+                        "videos" : [
+                            {
+                                "title" : "Extra small",
+                                "link" : "https://www.youtube.com/watch?v=jKPtyycjyxg"
+                            },
+                            {
+                                "title" : "Responsive header, navbar, search, cart",
+                                "link" : "https://www.youtube.com/watch?v=1h1iwi6qO4c"
+                            }
+                        ]
                     }
                 ]
             }
