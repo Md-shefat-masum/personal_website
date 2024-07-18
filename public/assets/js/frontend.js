@@ -1,21 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
-    Turbolinks.start()
-    document.addEventListener("turbolinks:before-render", function (event) {
-    });
-    document.addEventListener("turbolinks:render", function (event) {
-    });
-    document.addEventListener("turbolinks:load", function (event) {
-        console.log("page loaded");
-        preloader();
-        nav_active();
-        counterInit();
-        mainNav();
-        stickyHeader();
-        document.addEventListener('mousemove', cursorMovingAnimation);
-    });
+    // Turbolinks.start()
+    // document.addEventListener("turbolinks:before-render", function (event) {
+    // });
+    // document.addEventListener("turbolinks:render", function (event) {
+    // });
+    // document.addEventListener("turbolinks:load", function (event) {
+    //     console.log("page loaded");
+    //     preloader();
+    //     nav_active();
+    //     counterInit();
+    //     mainNav();
+    //     stickyHeader();
+    //     document.addEventListener('mousemove', cursorMovingAnimation);
+    // });
+
+    preloader();
+    nav_active();
+    counterInit();
+    mainNav();
+    stickyHeader();
+    document.addEventListener('mousemove', cursorMovingAnimation);
 });
 
-function nav_active(){
+function nav_active() {
     $(`a[href="${window.location.pathname}"]`).parents('li').addClass('active')
 }
 

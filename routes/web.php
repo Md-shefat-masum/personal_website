@@ -8,8 +8,18 @@ use Laminas\Mail\Storage;
 
 Auth::routes();
 
-Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers'], function () {
-    Route::get('/', 'FrontendController@index')->name('frontend_index');
+Route::group([
+    'prefix' => '',
+    'namespace' => 'App\Http\Controllers',
+    'middleware' => ['doNotCacheResponse']
+], function () {
+
+    Route::get('/cache/{image_name}', 'FrontendController@image')->where('image_name','.*');
+
+    Route::get('/', 'FrontendController@index')->name('frontend_index')->middleware('doNotCacheResponse');
+    Route::get('/cache-home', 'FrontendController@index_cache');
+    // ->middleware('cacheResponse:60000');
+
     Route::get('/about', 'FrontendController@about')->name('frontend_about');
     Route::get('/contact', 'FrontendController@contact')->name('frontend_contact');
     Route::get('/portfolio', 'FrontendController@portfolio')->name('frontend_portfolio');
@@ -21,15 +31,13 @@ Route::group(['prefix' => '', 'namespace' => 'App\Http\Controllers'], function (
     Route::get('/courses/{title}', 'FrontendController@single_course')->name('frontend_single_course');
     Route::get('/courses/{title}/{content_title?}', 'FrontendController@single_course')->name('frontend_single_course_content');
 
-    Route::group( ['prefix'=>'email'],function(){
-        Route::get('/','Email\EmailController@email');
+    Route::group(['prefix' => 'email'], function () {
+        Route::get('/', 'Email\EmailController@email');
 
-        Route::get('/total','Email\EmailController@total_email');
-        Route::get('/list','Email\EmailController@list');
-        Route::get('/read','Email\EmailController@read');
-
+        Route::get('/total', 'Email\EmailController@total_email');
+        Route::get('/list', 'Email\EmailController@list');
+        Route::get('/read', 'Email\EmailController@read');
     });
-
 });
 
 Route::group(['prefix' => 'cms', 'namespace' => 'App\Http\Controllers'], function () {

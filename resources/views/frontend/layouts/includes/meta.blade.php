@@ -58,5 +58,5 @@
 
     @if (env('APP_ENV') != 'local')
     <link rel="manifest" href="/manifest.json">
-    <script src="{{ asset('/main.js') }}" defer></script>
+    {{-- <script src="{{ asset('/main.js') }}" defer></script> --}}
     @endif

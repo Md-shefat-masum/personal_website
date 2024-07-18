@@ -22,7 +22,7 @@ $meta = [
             <div class="cs_isotop_item cs_zoom">
                 <a href="portfolio-details.html" class="cs_portfolio cs_style_1">
                     <div class="cs_portfolio_thumbnail">
-                        <img class="cs_zoom_in w-100" src="/assets/website/assets/img/portfolio/p3.jpg" alt="">
+                        <img class="cs_zoom_in w-100" src="/cache/assets/website/assets/img/portfolio/p3.jpg" alt="">
                     </div>
                     <div class="cs_portfolio_info cs_white_color cs_medium position-absolute">
                         <h2 class="cs_font_28 cs_white_color cs_medium mb-0">Fitst Project</h2>

@@ -1,7 +1,4 @@
-<section class="cs_hero cs_style_3 cs_filled_bg cs_center text-center"
-    style="{{isset($height)?'height:'.$height:''}}"
-    data-src="/assets/website/assets/img/bg/hero_bg_5.svg"
-    style="background-image: url('/assets/website/assets/img/bg/hero_bg_5.svg');">
+<section class="cs_hero cs_style_3 cs_filled_bg cs_center text-center">
     <div class="container">
         <div class="cs_height_45 cs_height_lg_45"></div>
         <p class="cs_white_color text-uppercase cs_mb_10">{{$sub_heading ?? ''}}</p>
