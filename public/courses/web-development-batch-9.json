@@ -188,6 +188,37 @@
                                 "link" : "https://www.youtube.com/watch?v=hHPq51M3pX4"
                             }
                         ]
+                    },
+                    {
+                        "title" : "Advanced CSS",
+                        "videos" : [
+                            {
+                                "title" : "CSS 3D and Animation",
+                                "link" : "https://www.youtube.com/watch?v=Eund2_YU89I"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Responsive Desing",
+                        "videos" : [
+                            {
+                                "title" : "Extra small",
+                                "link" : "https://www.youtube.com/watch?v=jKPtyycjyxg"
+                            },
+                            {
+                                "title" : "Responsive header, navbar, search, cart",
+                                "link" : "https://www.youtube.com/watch?v=1h1iwi6qO4c"
+                            }
+                        ]
+                    },
+                    {
+                        "title" : "Shared Hosting Deployment",
+                        "videos" : [
+                            {
+                                "title" : "Purchase hosting and create subdomain and deploy site",
+                                "link" : "https://www.youtube.com/watch?v=_d5LJjT20uA"
+                            }
+                        ]
                     }
                 ]
             }
