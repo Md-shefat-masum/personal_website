@@ -43,8 +43,8 @@ class FrontendController extends Controller
 
     public function index()
     {
-        $view = Redis::get('home_page');
-        // $view = view('frontend.home')->render();
+        // $view = Redis::get('home_page');
+        $view = view('frontend.home')->render();
         return response()->make($view, 200, [
             "Content-Type" => "text/html; charset=UTF-8",
             'Cache-Control' => 'public, max-age=86400',
