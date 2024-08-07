@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Full Stack Development",
+        "description": "Delivering comprehensive solutions from front-end to back-end, ensuring robust, scalable, and high-performance applications."
+    },
+    {
+        "title": "Mentor &amp; Leadership",
+        "description": "Guiding and empowering development teams to achieve excellence and productivity."
+    },
+    {
+        "title": "Code Review & Testing",
+        "description": "Ensuring code quality and reliability through detailed reviews and rigorous testing practices."
+    },
+    {
+        "title": "Database Design & System Analysis",
+        "description": "Creating efficient database architectures and performing thorough system analysis for optimal performance."
+    },
+    {
+        "title": "Project Management",
+        "description": "Managing projects from initial concept to deployment, ensuring seamless server setups and hosting."
+    },
+    {
+        "title": "DevOps & Agile Practices",
+        "description": "Implementing CI/CD pipelines, Agile methodologies, and DevOps tools for streamlined development processes."
+    }
+]

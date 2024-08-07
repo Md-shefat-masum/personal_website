@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Custom Web Application Development",
+        "description": "Building tailored web applications that meet specific client requirements, ensuring high performance and scalability."
+    },
+    {
+        "title": "E-commerce Solutions",
+        "description": "Developing comprehensive e-commerce platforms with features like payment gateways, inventory management, and user-friendly interfaces."
+    },
+    {
+        "title": "API Development & Integration",
+        "description": "Creating and integrating APIs to enable seamless communication between different software systems."
+    },
+    {
+        "title": "CMS Development",
+        "description": "Building content management systems (CMS) for easy content creation, management, and publishing."
+    },
+    {
+        "title": "Responsive Web Design",
+        "description": "Designing websites that provide an optimal viewing experience across a wide range of devices."
+    },
+    {
+        "title": "Progressive Web Apps (PWA)",
+        "description": "Developing progressive web apps that deliver a native app-like experience on the web."
+    },
+    {
+        "title": "Single Page Applications (SPA)",
+        "description": "Creating dynamic single-page applications that offer a smooth and fast user experience."
+    },
+    {
+        "title": "Web Portal Development",
+        "description": "Building web portals for businesses to manage and streamline their operations effectively."
+    },
+    {
+        "title": "Real-time Application Development",
+        "description": "Developing real-time web applications with instant data updates using technologies like WebSockets."
+    },
+    {
+        "title": "UX/UI Design",
+        "description": "Crafting intuitive and engaging user interfaces and experiences that enhance usability."
+    },
+    {
+        "title": "Performance Optimization",
+        "description": "Improving the speed and efficiency of existing websites and applications for better user experience."
+    },
+    {
+        "title": "Maintenance & Support",
+        "description": "Providing ongoing maintenance and support to ensure web applications remain up-to-date and secure."
+    },
+    {
+        "title": "Cloud Integration",
+        "description": "Integrating web applications with cloud services for enhanced scalability and flexibility."
+    },
+    {
+        "title": "SEO Optimization",
+        "description": "Optimizing websites to improve search engine rankings and increase organic traffic."
+    },
+    {
+        "title": "Security Enhancements",
+        "description": "Implementing security measures to protect web applications from vulnerabilities and threats."
+    },
+    {
+        "title": "Database Management",
+        "description": "Designing and managing databases to ensure data integrity, security, and efficient access."
+    },
+    {
+        "title": "Third-Party Integration",
+        "description": "Integrating third-party services and tools to extend the functionality of web applications."
+    },
+    {
+        "title": "Migration Services",
+        "description": "Migrating existing applications to modern platforms or frameworks to improve performance and maintainability."
+    },
+    {
+        "title": "Analytics & Reporting",
+        "description": "Implementing analytics tools to track and report on website performance and user behavior."
+    },
+    {
+        "title": "Consulting & Strategy",
+        "description": "Providing expert advice and strategic planning for web development projects to ensure success."
+    }
+]

@@ -21,13 +21,32 @@
                                         fill="#342EAD" />
                                 </svg>
                             </p>
-                            <h2 class="cs_section_title cs_font_48 cs_semi_bold">What <span class="cs_accent_color">my
-                                    client</span><br>have to say<br><span class="cs_accent_color_2">about me</span>
+                            <h2 class="cs_section_title cs_font_48 cs_semi_bold">
+                                What
+                                <span class="cs_accent_color">my well wishers</span>
+                                <br>have to say<br>
+                                <span class="cs_accent_color_2">about me</span>
                             </h2>
                         </div>
                         <div class="cs_height_75"></div>
                     </div>
                 </div>
+            </div>
+            <div class="row" id="testimonials">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="cs_height_150 cs_height_lg_80"></div>
+</section>
+<!-- End Testimonial Section -->
+@push('cjs')
+<script>
+    fetch('/jsons/reviews.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('testimonials').innerHTML = data.map((item)=>`
                 <div class="col-md-6">
                     <div class="cs_isotop_item" style="width: unset;">
                         <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
@@ -40,17 +59,18 @@
                                             d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z"
                                             stroke="#342EAD" stroke-width="2"></path>
                                     </svg>
-
                                 </div>
-                                <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                    elit.
-                                    Aenean commodo
-                                    ligula eget dolor. Aenean massa.</p>
+                                <p class="cs_testimonial_text">
+                                    ${item.description}
+                                </p>
                                 <div class="cs_tastimonial_avater d-flex align-items-center">
-                                    <img src="/cache/assets/website/assets/img/testmonial/a2.jpg" alt="avatar_img">
+                                    <img src="${item.image}" alt="${item.name} review for md shefat">
                                     <div class="cs_ml_20">
-                                        <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Adnan</h2>
-                                        <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
+                                        <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">
+                                            ${item.name}
+                                        </h2>
+                                        <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">
+                                            ${item.batch_no}
                                         </p>
                                     </div>
                                 </div>
@@ -58,41 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="cs_isotop_item" style="width: unset;">
-                        <div class="cs_testimonial cs_style_1 cs_radius_10 overflow-hidden cs_filled_bg"
-                            data-src="/cache/assets/website/assets/img/bg/testimonial_bg.svg"
-                            style="background-image: url(&quot;assets/website/assets/img/bg/testimonial_bg.svg&quot;);">
-                            <div class="cs_testimonial_in">
-                                <div class="cs_testmonial_icon">
-                                    <svg width="49" height="36" viewBox="0 0 49 36" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M18.777 2.44455L19.4939 1H17.8813H8.3525H7.73241L7.45675 1.55545L1.10425 14.3554L1 14.5655V14.8V34V35H2H21.0575H22.0575V34V14.8V13.8H21.0575H13.1414L18.777 2.44455ZM44.187 2.44455L44.904 1H43.2913H33.7625H33.1424L32.8668 1.55545L26.5143 14.3554L26.41 14.5655V14.8V34V35H27.41H46.4675H47.4675V34V14.8V13.8H46.4675H38.5514L44.187 2.44455Z"
-                                            stroke="#342EAD" stroke-width="2"></path>
-                                    </svg>
-
-                                </div>
-                                <p class="cs_testimonial_text">Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                    elit.
-                                    Aenean commodo
-                                    ligula eget dolor. Aenean massa.</p>
-                                <div class="cs_tastimonial_avater d-flex align-items-center">
-                                    <img src="/cache/assets/website/assets/img/testmonial/a2.jpg" alt="avatar_img">
-                                    <div class="cs_ml_20">
-                                        <h2 class="cs_testmonial_name cs_font_20 cs_semi_bold mb-0">Adnan</h2>
-                                        <p class="cs_testmonial_designation cs_font_16 cs_normal mb-0">Business Owner
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="cs_height_150 cs_height_lg_80"></div>
-</section>
-<!-- End Testimonial Section -->
+                `).join('');
+            });
+</script>
+@endpush

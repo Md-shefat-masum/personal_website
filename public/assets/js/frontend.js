@@ -56,6 +56,10 @@ function cursorMovingAnimation(event) {
     }
 }
 
+$(window).on('scroll', function () {
+    counterInit();
+});
+
 function counterInit() {
     if ($.exists('.odometer')) {
         function winScrollPosition() {

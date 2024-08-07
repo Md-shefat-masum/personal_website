@@ -4,11 +4,11 @@
         <img src="/cache/assets/website/assets/img/service_shape_1.svg" alt="">
     </div>
     <div class="cs_height_145 cs_height_lg_75"></div>
-    <div class="container">
+    <div class="container-fluid" style="max-width: 1400px;">
         <div class="cs_section_heading cs_style_1">
             <p class="cs_section_subtitle cs_accent_color_2 cs_font_16 wow fadeInLeft" data-wow-duration="0.8s"
                 data-wow-delay="0.2s">
-                <span>Services</span>
+                <span>Service Offering</span>
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -16,156 +16,91 @@
                         fill="#342EAD" />
                 </svg>
             </p>
-            <h2 class="cs_section_title cs_font_48 cs_semi_bold">How can <span class="cs_accent_color">I help
-                    you</span>
+            <h2 class="cs_section_title cs_font_48 cs_semi_bold">
+                How can
+                <span class="cs_accent_color">
+                    I help you
+                </span>
             </h2>
         </div>
         <div class="cs_height_72 cs_height_lg_62"></div>
-        <div class="row cs_gap_40 justify-content-md-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="cs_iconbox cs_style_1 cs_transform_up_hover_5 cs_transition_4">
-                    <div class="cs_iconbox_in">
-                        <div class="cs_iconbox_icon cs_center rounded-circle cs_white_bg">
-                            <svg width="32" height="30" viewBox="0 0 32 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M27.988 24H18.008C18.008 24.5339 18.2214 25.0457 18.6008 25.4213C18.9802 25.797 19.4941 26.0053 20.028 26H23.988C24.7025 25.9964 25.3647 26.3743 25.725 26.9913C26.0854 27.6084 26.0892 28.3708 25.735 28.9913C25.3809 29.6119 24.7225 29.9964 24.008 30H8.00799C6.90343 30 6.00799 29.1046 6.00799 28C6.01455 26.8982 6.90615 26.0066 8.00799 26H11.94C12.4739 26.0053 12.9877 25.797 13.3671 25.4213C13.7466 25.0457 13.96 24.5339 13.96 24H4.014C1.80304 23.9989 0.00880834 22.211 0 20V4.00002C-6.51263e-06 2.93673 0.423342 1.91718 1.17652 1.16664C1.92969 0.416086 2.95071 -0.003697 4.014 2.4535e-05H27.98C30.1942 -0.00440054 31.9934 1.78582 32 4.00002V20.02C31.989 22.226 30.194 24.0067 27.988 24ZM27.988 3.99997H4.008C4.008 3.99997 4.02 20 4.022 20H28.008L27.988 3.99997Z"
-                                    fill="#342EAD" />
-                            </svg>
-                        </div>
-                        <p class="cs_iconbox_mini_title cs_ternary_color text-uppercase cs_font_15">21 Projects
-                        </p>
-                        <h3 class="cs_iconbox_title cs_font_28 cs_medium">Web UI/UX Design</h3>
-                        <p class="cs_iconbox_subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor.</p>
-                        <a href="portfolio-details.html"
-                            class="cs_iconbox_btn cs_primary_color_hover cs_center_between">
-                            <span class="cs_iconbox_btn_text position-relative d-inline-block cs_font_16">Explore</span>
-                            <span class="cs_circle_btn cs_style_1 cs_accent_color cs_center rounded-circle">
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="cs_progressbar cs_style_1 text-center">
-                        <h3 class="cs_progressbar_head cs_accent_color cs_normal cs_font_14"><span class="odometer"
-                                data-count-to="85"></span>%</h3>
-                        <div class="cs_progress" data-progress="85">
-                            <div class="cs_progress_in"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="cs_iconbox cs_style_1 cs_transform_up_hover_5 cs_transition_4">
-                    <div class="cs_iconbox_in">
-                        <div class="cs_iconbox_icon cs_center rounded-circle cs_white_bg">
-                            <svg width="21" height="32" viewBox="0 0 21 32" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M17.4545 26.1818H2.90909V5.81818H17.4545M17.4545 0H2.90909C1.29455 0 0 1.29455 0 2.90909V29.0909C0 29.8624 0.306492 30.6024 0.852053 31.1479C1.39761 31.6935 2.13755 32 2.90909 32H17.4545C18.2261 32 18.966 31.6935 19.5116 31.1479C20.0571 30.6024 20.3636 29.8624 20.3636 29.0909V2.90909C20.3636 1.29455 19.0545 0 17.4545 0Z"
-                                    fill="#342EAD" />
-                            </svg>
-                        </div>
-                        <p class="cs_iconbox_mini_title cs_ternary_color text-uppercase cs_font_15">18 Projects
-                        </p>
-                        <h3 class="cs_iconbox_title cs_font_28 cs_medium">Mobile UI/UX Design</h3>
-                        <p class="cs_iconbox_subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor.</p>
-                        <a href="portfolio-details.html"
-                            class="cs_iconbox_btn cs_primary_color_hover cs_center_between">
-                            <span class="cs_iconbox_btn_text position-relative d-inline-block cs_font_16">Explore</span>
-                            <span class="cs_circle_btn cs_style_1 cs_accent_color cs_center rounded-circle">
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="cs_progressbar cs_style_1 text-center">
-                        <h3 class="cs_progressbar_head cs_accent_color cs_normal cs_font_14"><span class="odometer"
-                                data-count-to="75"></span>%</h3>
-                        <div class="cs_progress" data-progress="75">
-                            <div class="cs_progress_in"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="cs_iconbox cs_style_1 cs_transform_up_hover_5 cs_transition_4">
-                    <div class="cs_iconbox_in">
-                        <div class="cs_iconbox_icon cs_center rounded-circle cs_white_bg">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M2.27615 22.4222V27.7238H7.57776L23.2139 12.0735L17.9123 6.77191L2.27615 22.4222ZM30 23.9915L23.9915 30L16.64 22.6484L19.1423 20.1461L20.5561 21.5598L24.0481 18.0537L26.0556 20.0613L23.9915 22.0688L25.4901 23.4826L27.4976 21.5033L30 23.9915ZM7.37983 13.3459L0 6.00848L6.00848 0L8.4967 2.50236L5.00471 6.00848L6.51744 7.50707L9.99529 4.00094L12.0028 6.00848L9.99529 8.00189L11.409 9.41565L7.37983 13.3459ZM27.3139 7.9312C27.8652 7.37983 27.8652 6.51744 27.3139 5.93779L24.0057 2.68615C23.4826 2.13478 22.5636 2.13478 22.0122 2.68615L19.4109 5.27333L24.7125 10.5749L27.3139 7.9312Z"
-                                    fill="#342EAD" />
-                            </svg>
-                        </div>
-                        <p class="cs_iconbox_mini_title cs_ternary_color text-uppercase cs_font_15">25 Projects
-                        </p>
-                        <h3 class="cs_iconbox_title cs_font_28 cs_medium">Branding Design</h3>
-                        <p class="cs_iconbox_subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo
-                            ligula eget dolor.</p>
-                        <a href="portfolio-details.html"
-                            class="cs_iconbox_btn cs_primary_color_hover cs_center_between">
-                            <span
-                                class="cs_iconbox_btn_text position-relative d-inline-block cs_font_16">Explore</span>
-                            <span class="cs_circle_btn cs_style_1 cs_accent_color cs_center rounded-circle">
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 10L10 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M1 1H10V10" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="cs_progressbar cs_style_1 text-center">
-                        <h3 class="cs_progressbar_head cs_accent_color cs_normal cs_font_14"><span class="odometer"
-                                data-count-to="93"></span>%</h3>
-                        <div class="cs_progress" data-progress="93">
-                            <div class="cs_progress_in"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row cs_gap_40 justify-content-md-center" id="proficiencies">
+
         </div>
     </div>
     <div class="cs_height_150 cs_height_lg_20"></div>
 </section>
 <!-- End Service Section -->
+@push('cjs')
+    <script>
+        fetch('/jsons/proficiency.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('proficiencies').innerHTML = data.map((item) => `
+                <div class="col-lg-4 col-md-6 pb-5">
+                    <div class="cs_iconbox h-100 cs_style_1 cs_transform_up_hover_5 cs_transition_4">
+                        <div class="cs_iconbox_in h-100">
+                            <div class="cs_iconbox_icon cs_center rounded-circle cs_white_bg">
+                                <svg width="32" height="30" viewBox="0 0 32 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M27.988 24H18.008C18.008 24.5339 18.2214 25.0457 18.6008 25.4213C18.9802 25.797 19.4941 26.0053 20.028 26H23.988C24.7025 25.9964 25.3647 26.3743 25.725 26.9913C26.0854 27.6084 26.0892 28.3708 25.735 28.9913C25.3809 29.6119 24.7225 29.9964 24.008 30H8.00799C6.90343 30 6.00799 29.1046 6.00799 28C6.01455 26.8982 6.90615 26.0066 8.00799 26H11.94C12.4739 26.0053 12.9877 25.797 13.3671 25.4213C13.7466 25.0457 13.96 24.5339 13.96 24H4.014C1.80304 23.9989 0.00880834 22.211 0 20V4.00002C-6.51263e-06 2.93673 0.423342 1.91718 1.17652 1.16664C1.92969 0.416086 2.95071 -0.003697 4.014 2.4535e-05H27.98C30.1942 -0.00440054 31.9934 1.78582 32 4.00002V20.02C31.989 22.226 30.194 24.0067 27.988 24ZM27.988 3.99997H4.008C4.008 3.99997 4.02 20 4.022 20H28.008L27.988 3.99997Z"
+                                        fill="#342EAD" />
+                                </svg>
+                            </div>
+                            <p class="cs_iconbox_mini_title cs_ternary_color text-uppercase cs_font_15">
+
+                            </p>
+                            <h3 class="cs_iconbox_title cs_font_28 cs_medium">
+                                ${item.title}
+                            </h3>
+                            <p class="cs_iconbox_subtitle">
+                                ${item.description}
+                            </p>
+                        </div>
+                        <div class="cs_progressbar cs_style_1 text-center">
+                            <div class="cs_progress" data-progress="85">
+                                <div class="cs_progress_in"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `).join('');
+            });
+
+        fetch('/jsons/services.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('proficiencies').innerHTML += data.map((item) => `
+                <div class="col-lg-4 col-md-6 pb-5">
+                    <div class="cs_iconbox h-100 cs_style_1 cs_transform_up_hover_5 cs_transition_4">
+                        <div class="cs_iconbox_in h-100">
+                            <div class="cs_iconbox_icon cs_center rounded-circle cs_white_bg">
+                                <svg width="32" height="30" viewBox="0 0 32 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M27.988 24H18.008C18.008 24.5339 18.2214 25.0457 18.6008 25.4213C18.9802 25.797 19.4941 26.0053 20.028 26H23.988C24.7025 25.9964 25.3647 26.3743 25.725 26.9913C26.0854 27.6084 26.0892 28.3708 25.735 28.9913C25.3809 29.6119 24.7225 29.9964 24.008 30H8.00799C6.90343 30 6.00799 29.1046 6.00799 28C6.01455 26.8982 6.90615 26.0066 8.00799 26H11.94C12.4739 26.0053 12.9877 25.797 13.3671 25.4213C13.7466 25.0457 13.96 24.5339 13.96 24H4.014C1.80304 23.9989 0.00880834 22.211 0 20V4.00002C-6.51263e-06 2.93673 0.423342 1.91718 1.17652 1.16664C1.92969 0.416086 2.95071 -0.003697 4.014 2.4535e-05H27.98C30.1942 -0.00440054 31.9934 1.78582 32 4.00002V20.02C31.989 22.226 30.194 24.0067 27.988 24ZM27.988 3.99997H4.008C4.008 3.99997 4.02 20 4.022 20H28.008L27.988 3.99997Z"
+                                        fill="#342EAD" />
+                                </svg>
+                            </div>
+                            <p class="cs_iconbox_mini_title cs_ternary_color text-uppercase cs_font_15">
+
+                            </p>
+                            <h3 class="cs_iconbox_title cs_font_28 cs_medium">
+                                ${item.title}
+                            </h3>
+                            <p class="cs_iconbox_subtitle">
+                                ${item.description}
+                            </p>
+                        </div>
+                        <div class="cs_progressbar cs_style_1 text-center">
+                            <div class="cs_progress" data-progress="85">
+                                <div class="cs_progress_in"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `).join('');
+            });
+    </script>
+@endpush

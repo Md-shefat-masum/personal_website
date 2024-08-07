@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="cs_section_heading cs_style_1">
-                    <p class="cs_section_subtitle cs_accent_color_2 cs_font_16 wow fadeInLeft"
-                        data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <p class="cs_section_subtitle cs_accent_color_2 cs_font_16 wow fadeInLeft" data-wow-duration="0.8s"
+                        data-wow-delay="0.2s">
                         <span>Blog Posts</span>
                         <svg width="17" height="21" viewBox="0 0 17 21" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -15,17 +15,18 @@
                                 fill="#342EAD" />
                         </svg>
                     </p>
-                    <h2 class="cs_section_title cs_font_48 cs_semi_bold">My Latest <span
-                            class="cs_accent_color">articles</span>
+                    <h2 class="cs_section_title cs_font_48 cs_semi_bold">
+                        My Latest
+                        <span class="cs_accent_color">articles</span>
                     </h2>
                     <div class="cs_height_25 cs_height_lg_10"></div>
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                        ligula eget
-                        dolor.
-                        Aenean massa.
+                    <p class="mb-0">
+                        Discover insights, tips, and best practices from my experiences as a Full Stack Developer,
+                        mentor, and team leader. Stay updated with the latest trends and innovations in web development
+                        and DevOps.
                     </p>
                     <div class="cs_height_45 cs_height_lg_10"></div>
-                    <a href="blog.html"
+                    <a href="/blog"
                         class="cs_accent_color cs_font_16 cs_medium text-uppercase cs_gap_15 d-inline-flex align-items-center">
                         <span class="cs_text_btn">View All</span>
                         <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
@@ -36,122 +37,60 @@
                 </div>
                 <div class="cs_height_lg_30"></div>
             </div>
-            <div class="col-lg-7 offset-lg-1">
-                <div class="cs_blog cs_style_1 cs_transition_4">
-                    <div class="flex-none">
-                        <a href="blog-details.html" class="cs_blog_thumbnail cs_zoom">
-                            <img class="cs_zoom_in" src="/cache/assets/website/assets/img/blog/blog_1.jpg"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="cs_blog_info">
-                        <div class="cs_blog_date text-nowrap cs_secondary_color">
-                            <div class="cs_font_36 cs_semi_bold cs_primary_font">10</div>
-                            <span class="cs_font_16 d-inline-block">Jul 2022</span>
-                        </div>
-                        <h2 class="cs_blog_title cs_font_20 cs_semi_bold">
-                            <a class="cs_accent_color_2_hover" href="blog-details.html">
-                                How to
-                                design a user-centric mobile
-                                application?
-                            </a>
-                        </h2>
-                        <span class="cs_secondary_color">10 mins read</span>
-                        <a href="blog-details.html"
-                            class="cs_circle_btn cs_style_1 cs_type_1 cs_accent_color_2 cs_center rounded-circle">
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="cs_blog cs_style_1 cs_transition_4">
-                    <div class="flex-none">
-                        <a href="blog-details.html" class="cs_blog_thumbnail cs_zoom">
-                            <img class="cs_zoom_in" src="/cache/assets/website/assets/img/blog/blog_2.jpg"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="cs_blog_info">
-                        <div class="cs_blog_date text-nowrap cs_secondary_color">
-                            <div class="cs_font_36 cs_semi_bold cs_primary_font">09</div>
-                            <span class="cs_font_16 d-inline-block">Jul 2022</span>
-                        </div>
-                        <h2 class="cs_blog_title cs_font_20 cs_semi_bold">
-                            <a class="cs_accent_color_2_hover" href="blog-details.html">How to
-                                design a user-centric mobile
-                                application?</a>
-                        </h2>
-                        <span class="cs_secondary_color">7 mins read</span>
-                        <a href="blog-details.html"
-                            class="cs_circle_btn cs_style_1 cs_type_1 cs_accent_color_2 cs_center rounded-circle">
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="cs_blog cs_style_1 cs_transition_4">
-                    <div class="flex-none">
-                        <a href="blog-details.html" class="cs_blog_thumbnail cs_zoom">
-                            <img class="cs_zoom_in" src="/cache/assets/website/assets/img/blog/blog_3.jpg"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="cs_blog_info">
-                        <div class="cs_blog_date text-nowrap cs_secondary_color">
-                            <div class="cs_font_36 cs_semi_bold cs_primary_font">06</div>
-                            <span class="cs_font_16 d-inline-block">Jul 2022</span>
-                        </div>
-                        <h2 class="cs_blog_title cs_font_20 cs_semi_bold"><a class="cs_accent_color_2_hover"
-                                href="blog-details.html">How to
-                                design a user-centric mobile
-                                application?</a></h2>
-                        <span class="cs_secondary_color">8 mins read</span>
-                        <a href="blog-details.html"
-                            class="cs_circle_btn cs_style_1 cs_type_1 cs_accent_color_2 cs_center rounded-circle">
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-lg-7 offset-lg-1" id="blog_list">
             </div>
         </div>
     </div>
     <div class="cs_height_150 cs_height_lg_80"></div>
 </section>
 <!-- End Blog Section -->
+@push('cjs')
+    <script>
+        fetch('/blog_files/web_development.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('blog_list').innerHTML = data.map((item,index) => `
+                <div class="cs_blog cs_style_1 cs_transition_4">
+                    <div class="flex-none">
+                        <a href="/blog/${item.slug}" class="cs_blog_thumbnail cs_zoom">
+                            <img class="cs_zoom_in" src="/${item.image}" alt="${item.title}" style="height: 100%; object-fit:cover;">
+                        </a>
+                    </div>
+                    <div class="cs_blog_info">
+                        <div class="cs_blog_date text-nowrap cs_secondary_color">
+                            <div class="cs_font_36 cs_semi_bold cs_primary_font">
+                                ${(index + 5).toString().padStart(2,'0')}
+                            </div>
+                            <span class="cs_font_16 d-inline-block">Jul 2023</span>
+                        </div>
+                        <h2 class="cs_blog_title cs_font_20 cs_semi_bold">
+                            <a class="cs_accent_color_2_hover" href="/blog/${item.slug}">
+                                ${item.title}
+                            </a>
+                        </h2>
+                        <span class="cs_secondary_color">
+                            ${parseInt(Math.random()*1000)} mins read
+                        </span>
+                        <a href="/blog/${item.slug}"
+                            class="cs_circle_btn cs_style_1 cs_type_1 cs_accent_color_2 cs_center rounded-circle">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 10L10 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M1 1H10V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                `).join('');
+            })
+    </script>
+@endpush

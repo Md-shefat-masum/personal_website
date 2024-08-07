@@ -8,9 +8,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="cs_image_box cs_style_1 position-relative">
-                    <img class="position-absolute cs_about_shape" src="/cache/assets/website/assets/img/about_shape_1.svg"
-                        alt="About">
-                    <img class="w-100" src="/cache/assets/website/assets/img/about_img_1.png" alt="About">
+                    <img class="position-absolute cs_about_shape"
+                        src="/cache/assets/website/assets/img/about_shape_1.svg" alt="About Shefat Masum">
+                    <img class="w-100" src="/cache/assets/website/assets/img/about-shefat-masum.png" alt="About Shefat Masum">
                     <div class="cs_happy_client position-absolute cs_white_bg d-flex align-items-center cs_radius_20 cs_gap_15 wow fadeInRight"
                         data-wow-duration="0.8s" data-wow-delay="0.2s">
                         <p class="mb-0 cs_emoji_text">😍</p>
@@ -52,27 +52,36 @@
                         <div class="cs_tab_body">
                             <div class="cs_tab active" data-id="myself">
                                 <p>
-                                    I am <link>Shefat</link>,
+                                    I am
+                                    <link>Shefat</link>,
                                     a passionate and dedicated
                                     <link>software engineer</link>
-                                    with a love for creating efficient, scalable, and innovative solutions. With a background in
+                                    with a love for creating efficient, scalable, and innovative solutions. With a
+                                    background in
                                     <link>computer science</link> and several years of professional experience,
-                                    I have honed my skills in <link>full-stack web development</link>,
-                                    <link>database management</link>, and <link>Project Manager</link>.
+                                    I have honed my skills in
+                                    <link>full-stack web development</link>,
+                                    <link>database management</link>, and
+                                    <link>Project Manager</link>.
                                 </p>
 
                                 <p>
                                     My journey in the tech industry has allowed me to work on diverse projects,
-                                    ranging from <link>e-commerce platforms</link> to <link>enterprise-level applications</link>.
-                                    I thrive in collaborative environments and enjoy tackling complex challenges that push
+                                    ranging from
+                                    <link>e-commerce platforms</link> to
+                                    <link>enterprise-level applications</link>.
+                                    I thrive in collaborative environments and enjoy tackling complex challenges that
+                                    push
                                     the boundaries of what is possible.
                                 </p>
 
                                 <p>
                                     When I'm not coding, you can find me exploring the latest trends in technology,
-                                    contributing to <link>open-source projects</link>, or mentoring aspiring developers.
+                                    contributing to
+                                    <link>open-source projects</link>, or mentoring aspiring developers.
                                     I am committed to continuous learning and staying
-                                    updated with the ever-evolving landscape of <link>software development</link>.
+                                    updated with the ever-evolving landscape of
+                                    <link>software development</link>.
                                 </p>
 
                                 <div class="cs_height_30 cs_height_lg_20"></div>

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Abu Ehsan",
+        "image": "https://media.licdn.com/dms/image/C4D03AQH9cbZV_swpbw/profile-displayphoto-shrink_100_100/0/1652688150521?e=1728518400&v=beta&t=4XUxpc_dITYaxsGnXXqMKnbz1Audu9AqmWzuKCnsDto",
+        "description": "Shefat's guidance was invaluable. His mentorship helped me excel in my projects.",
+        "batch_no": "202201"
+    },
+    {
+        "name": "Yamin Hossain",
+        "image": "https://media.licdn.com/dms/image/v2/C4E03AQE7Qg2oPlHV8Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516498983857?e=1728518400&v=beta&t=hKHNoFOz3HS0ABWJvh3HBpDkE1zSqBMmNDD6folNn-c",
+        "description": "Shefat is an amazing mentor who explains complex topics clearly. Highly recommend!",
+        "batch_no": "202201"
+    },
+    {
+        "name": "Sajidul Islam",
+        "image": "https://media.licdn.com/dms/image/D5603AQHxvxzPVBmRdA/profile-displayphoto-shrink_100_100/0/1694920401269?e=1728518400&v=beta&t=ZzBcO5LuMRGVc2GASx0qtGszXAVehJKOthhWOcL9Hsc",
+        "description": "With Shefat's mentorship, I improved my coding skills and confidence significantly.",
+        "batch_no": "202201"
+    },
+    {
+        "name": "Tarek Hasan",
+        "image": "https://media.licdn.com/dms/image/v2/D5603AQHFVqm8bwvK6Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1699347129138?e=1728518400&v=beta&t=uU4aRwnfn1AkbjG5QNLmfVV2KjYbHfTFGM4-amyAAy0",
+        "description": "Shefat's mentoring style is supportive and encouraging. I learned a lot from him.",
+        "batch_no": "202201"
+    },
+    {
+        "name": "Tasnim Jawad",
+        "image": "https://media.licdn.com/dms/image/C5603AQGZnDDIraQMMw/profile-displayphoto-shrink_100_100/0/1600121049526?e=1728518400&v=beta&t=0OT6670qEVW1FTwA0XF7nVtVmSNHRqk0mrrd5uTPuxQ",
+        "description": "Shefat's expertise and guidance were key to my project's success.",
+        "batch_no": "202202"
+    },
+    {
+        "name": "Mominul Haque",
+        "image": "https://media.licdn.com/dms/image/C4E03AQFh3YhnyOQWhw/profile-displayphoto-shrink_100_100/0/1516867875071?e=1728518400&v=beta&t=XjpYAlB3hPr9FniXOGiO1Wnz40K9r6e5FINjUXR84ks",
+        "description": "Shefat's mentoring helped me navigate challenges and achieve my goals.",
+        "batch_no": "202102"
+    },
+    {
+        "name": "Almas Khan",
+        "image": "https://media.licdn.com/dms/image/v2/C5603AQHJhov2U-iKgQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1662790797691?e=1728518400&v=beta&t=3eagwq_7y0hKxJFS6gqM14oDodsHERqo5T1_zpc3Fzc",
+        "description": "Shefat is an outstanding mentor who is always willing to help and share knowledge.",
+        "batch_no": "202302"
+    },
+    {
+        "name": "Mahabubur Rahman",
+        "image": "https://media.licdn.com/dms/image/D4D35AQHjEHeRnDp2vA/profile-framedphoto-shrink_100_100/0/1698921532713?e=1723669200&v=beta&t=n8g8zCPhrqizu499l16zpePt6MEcBkhGLwri2vT4R8I",
+        "description": "I greatly benefited from Shefat's mentoring. His advice was practical and effective.",
+        "batch_no": "202002"
+    },
+    {
+        "name": "Alif Sagir",
+        "image": "https://media.licdn.com/dms/image/D5635AQFy4eBAomfp0Q/profile-framedphoto-shrink_100_100/0/1683955925813?e=1723665600&v=beta&t=BO8W9UMGs__xLP5046Q8_ZEGhUyTvXQOco47dOR__9g",
+        "description": "Shefat's mentorship made a big difference in my career development.",
+        "batch_no": "202203"
+    },
+    {
+        "name": "Anisuzzaman",
+        "image": "https://media.licdn.com/dms/image/v2/C4D03AQH25URqTtUpuQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1653306422173?e=1728518400&v=beta&t=a076-FVNHKT0IHvU3APyWQoV8uAXDoYFCe-DR-OXspY",
+        "description": "Under Shefat's mentorship, I learned new skills and improved my problem-solving abilities.",
+        "batch_no": "202103"
+    }
+]

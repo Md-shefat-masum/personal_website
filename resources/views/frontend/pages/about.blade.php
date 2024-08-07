@@ -7,6 +7,36 @@
         ],
     ];
 @endphp
+@push('jsonld')
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Shefat Masum",
+        "url": "{{ route('frontend_about') }}",
+        "sameAs": [
+            "https://www.linkedin.com/in/md-shefat-ms512382/",
+            "https://www.youtube.com/@hungrycoder7541",
+            "https://github.com/Md-shefat-masum"
+        ],
+        "jobTitle": "Full Stack Developer, Software Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "HUNGRY CODER",
+            "sameAs": "https://shefat.info"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Bangladesh Institute Of Science And Technology (BIST)",
+            "sameAs": "https://www.bist.ac.bd"
+        },
+        "description": "Shefat is a full stack developer with extensive experience in Node.js, Express, FastAPI, TypeScript, React.js, and more. He is also a mentor, team leader, and creative individual who loves traveling.",
+        "image": "{{ asset('assets/website/assets/img/hero_img.png') }}",
+        "knowsAbout": ["Node.js", "Express", "FastAPI", "TypeScript", "React.js", "Vue.js", "PHP", "Laravel", "Redis", "Docker", "GitHub"],
+        "knowsLanguage": ["English", "Bengali"]
+    }
+</script>
+@endpush
 @extends('frontend.layouts.layout', $meta)
 @section('contents')
     @include('frontend.layouts.includes.page_banner', [
@@ -224,8 +254,8 @@
                         <div class="cs_progressbar cs_style_2">
                             <div class="label cs_font_20 cs_semi_bold">Problem Solving</div>
                             <h3 class="cs_progressbar_head cs_ternary_color cs_normal cs_font_14 text-end">70%</h3>
-                            <div class="cs_progress" data-progress="70">
-                                <div class="cs_progress_in" style="width: 70%;"></div>
+                            <div class="cs_progress" data-progress="90">
+                                <div class="cs_progress_in" style="width: 90%;"></div>
                             </div>
                         </div>
                         <div class="cs_progressbar cs_style_2">
@@ -238,8 +268,8 @@
                         <div class="cs_progressbar cs_style_2">
                             <div class="label cs_font_20 cs_semi_bold">Algorithm &amp; Data Structure</div>
                             <h3 class="cs_progressbar_head cs_ternary_color cs_normal cs_font_14 text-end">75%</h3>
-                            <div class="cs_progress" data-progress="75">
-                                <div class="cs_progress_in" style="width: 75%;"></div>
+                            <div class="cs_progress" data-progress="90">
+                                <div class="cs_progress_in" style="width: 90%;"></div>
                             </div>
                         </div>
                     </div>
@@ -283,30 +313,34 @@
                     <div class="cs_height_30 cs_height_lg_20"></div>
                     <div>
                         <ul class="cs_tab_links cs_mp_0">
-                            <li class="active"><a class="text-uppercase " href="404-5.html">travel</a></li>
-                            <li><a class="text-uppercase " href="404-6.html">creativity</a></li>
-                            <li><a class="text-uppercase " href="404-7.html">moments</a></li>
+                            <li class="active"><a class="text-uppercase " href="travel">travel</a></li>
+                            <li><a class="text-uppercase " href="creativity">creativity</a></li>
+                            <li><a class="text-uppercase " href="moments">moments</a></li>
                         </ul>
                         <div class="cs_tab_body">
                             <div class="cs_tab active" data-id="travel">
-                                <p class="m-0">Lorem ipsum dolor sit amet, <span class="cs_accent_color">consectetuer
-                                        adipiscing
-                                        elit</span>. Cum sociis natoque penatibus et magnis dis parturient
-                                    montes,<span class="cs_accent_color"> nascetur ridiculus</span> mus. Donec quam
-                                    felis, ultricies nec, <span class="cs_accent_color_2">pellentesque eu</span>,
-                                    pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                <p class="m-0">
+                                    Explore my gallery showcasing moments from my travels around the world. Each photo
+                                    captures the beauty and adventure of my journeys, reflecting my love for discovering new
+                                    places.
+                                </p>
                             </div>
                             <div class="cs_tab" data-id="creativity">
-                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-                                    deleniti adipisci culpa? Quos sit dolore magnam minima, optio nobis commodi!</p>
+                                <p class="m-0">
+                                    Creativity fuels my passion for innovation and problem-solving. I thrive on thinking
+                                    outside the box, developing unique solutions, and bringing fresh perspectives to every
+                                    project. My creative approach drives me to explore new ideas and continuously improve my
+                                    work.
+                                </p>
                             </div>
                             <div class="cs_tab" data-id="moments">
-                                <p class="m-0">Lorem ipsum dolor sit amet, <span class="cs_accent_color">consectetuer
-                                        adipiscing elit</span>. Cum sociis
-                                    natoque penatibus et magnis dis parturient montes,<span class="cs_accent_color">
-                                        nascetur ridiculus</span> mus. Donec quam felis, ultricies nec, <span
-                                        class="cs_accent_color_2">pellentesque eu</span>, pretium quis, sem. Nulla
-                                    consequat massa quis enim.</p>
+                                <p class="m-0">
+                                    Life is a collection of moments, each holding a story and a lesson. I cherish every
+                                    experience, capturing the essence of these fleeting instances through my work and
+                                    travels. From the thrill of discovering a new destination to the satisfaction of solving
+                                    a complex problem, each moment shapes my journey and inspires me to keep pushing
+                                    forward.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -316,60 +350,54 @@
                     <div class="cs_pl_70 cs_tab active" data-id="travel">
                         <div class="cs_gallery_grid">
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_1.jpg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/1.jpg" alt="bowaliya trail">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_3.jpg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/2.jpg" alt="boga lake">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_2.jpg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/3.jpg" alt="nilachol, bandarban">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_4.jpg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/4.jpg" alt="bandarban">
+                            </div>
+                            <div class="cs_gallery cs_style_1">
+                                <img class="w-100" src="/cache/uploads/lifestyles/13.jpg" alt="rangamati">
+                            </div>
+                            <div class="cs_gallery cs_style_1">
+                                <img class="w-100" src="/cache/uploads/lifestyles/14.jpg" alt="bandarban">
                             </div>
                         </div>
                     </div>
                     <div class="cs_pl_70 cs_tab" data-id="creativity">
                         <div class="cs_gallery_grid">
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_5.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/5.jpg" alt="off trail">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_6.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/6.jpg" alt="rangamati">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_7.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/8.jpg" alt="codding">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_8.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/7.jpg" alt="kashful">
                             </div>
                         </div>
                     </div>
                     <div class="cs_pl_70 cs_tab" data-id="moments">
                         <div class="cs_gallery_grid">
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_9.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/9.jpg" alt="body building">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_10.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/10.jpg" alt="blood donation">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_11.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/11.jpg" alt="journey by truck">
                             </div>
                             <div class="cs_gallery cs_style_1">
-                                <img class="w-100" src="/cache/assets/website/assets/img/gallery/gallery_12.jpeg"
-                                    alt="">
+                                <img class="w-100" src="/cache/uploads/lifestyles/12.jpg" alt="mucapur closure">
                             </div>
                         </div>
                     </div>

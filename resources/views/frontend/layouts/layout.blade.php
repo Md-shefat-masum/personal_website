@@ -23,6 +23,30 @@
     <link rel="stylesheet" href="/cache/assets/website/assets/css/style.css">
     <link rel="stylesheet" href="/cache/assets/website/assets/css/custom.css">
 
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@graph": [
+                {
+                    "@type": "ImageObject",
+                    "contentUrl": "{{ asset('assets/website/assets/img/hero_img.png') }}",
+                    "description": "Muhammad Shefat Ullah Masum, Software Engineer, Full Stack Developer",
+                    "name": "MD. Shefat Ullah Masum",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Shefat"
+                    },
+                    "datePublished": "2024-08-07",
+                    "thumbnailUrl": "{{ asset('assets/website/assets/img/hero_img.png') }}",
+                    "caption": "A Software Engineer, Full Stack Developer",
+                    "width": "601",
+                    "height": "840"
+                }
+            ]
+        }
+    </script>
+
+    @stack('jsonld')
 </head>
 
 <body>
@@ -79,10 +103,14 @@
         <div class="container">
             <div class="cs_footer_cta">
                 <h2 class="cs_font_92 cs_gradient_text_2 cs_semi_bold">Have a project?</h2>
-                <a href="contact.html" class="cs_btn cs_style_1 cs_primary_font"><span>Let’s
-                        Talk</span></a>
+                <a href="/contact" class="cs_btn cs_style_1 cs_primary_font">
+                    <span>
+                        Let's Talk
+                    </span>
+                </a>
             </div>
-            <div class="cs_copyright">© 2023 <a href="#">Laralink</a>. All rights reserved</div>
+            <div class="cs_copyright">© 2023 <a href="{{ url('') }}">MD Shefat Ullah Masum</a>. All rights
+                reserved</div>
         </div>
     </footer>
     <!-- End Footer -->
@@ -110,7 +138,6 @@
     <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/odometer-theme-default.css">
     <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/animate.css">
 
-
     <script src="{{ asset('/cache/assets/website/assets/js/plugins/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('/cache/assets/js/plugins/localforage.min.js') }}"></script>
     <script src="{{ asset('/cache/assets/js/plugins/sweetalert.js') }}"></script>
@@ -118,7 +145,8 @@
     <script src="{{ asset('/cache/assets/website/assets/js/plugins/gsap.min.js') }}"></script>
     <script src="{{ asset('/cache/assets/website/assets/js/plugins/odometer.min.js') }}"></script>
     <script src="{{ asset('/cache/assets/website/assets/js/main.js') }}"></script>
-    <script src="{{ asset('/cache/assets/js/frontend.js') }}"></script>
+    @stack('cjs')
+    <script defer src="{{ asset('/cache/assets/js/frontend.js') }}"></script>
 
     @if (env('APP_ENV') != 'local')
         <!-- Google tag (gtag.js) -->
