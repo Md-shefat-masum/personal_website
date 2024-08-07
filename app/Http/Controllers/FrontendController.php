@@ -31,10 +31,12 @@ class FrontendController extends Controller
             $mimeType = "image/svg+xml";
         }
         // dd($image_name, $mimeType, strpos($image_name, '.css'));
+
+        $days = 86400 * 1;
         $headers = [
             'Content-Type' => $mimeType,
-            'Cache-Control' => 'public, max-age=86400',
-            'Expires' => gmdate('D, d M Y H:i:s \G\M\T', time() + 86400),
+            'Cache-Control' => 'public, max-age=' . $days,
+            'Expires' => gmdate('D, d M Y H:i:s \G\M\T', time() + $days),
             'Last-Modified' => gmdate('D, d M Y H:i:s \G\M\T', $lastModified),
         ];
 
@@ -45,11 +47,16 @@ class FrontendController extends Controller
     {
         // $view = Redis::get('home_page');
         $view = view('frontend.home')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
         return response()->make($view, 200, [
             "Content-Type" => "text/html; charset=UTF-8",
             'Cache-Control' => 'public, max-age=86400',
         ]);
-        return view('frontend.home');
+        // return view('frontend.home');
     }
 
     public function index_cache()
@@ -64,19 +71,51 @@ class FrontendController extends Controller
 
     public function about()
     {
-        return view('frontend.pages.about');
+        $view = view('frontend.pages.about')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+        // return view('frontend.pages.about');
     }
 
     public function portfolio()
     {
-        return view('frontend.pages.portfolio');
+        $view = view('frontend.pages.portfolio')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+        // return view('frontend.pages.portfolio');
     }
 
     public function blog()
     {
         $string = file_get_contents(public_path("blog_files/web_development.json"));
         $contents = json_decode($string, true);
-        return view('frontend.pages.blog.blogs', compact('contents'));
+
+        $view = view('frontend.pages.blog.blogs', compact('contents'))->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+
+        // return view('frontend.pages.blog.blogs', compact('contents'));
     }
 
     public function blog_details($slug)
@@ -89,12 +128,34 @@ class FrontendController extends Controller
         if ($index !== false) {
             $content = (object) $contents[$index];
         }
-        return view('frontend.pages.blog.blog_details', compact('content'));
+
+        $view = view('frontend.pages.blog.blog_details', compact('contents'))->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+
+        // return view('frontend.pages.blog.blog_details', compact('content'));
     }
 
     public function courses()
     {
-        return view('frontend.pages.course.courses');
+        $view = view('frontend.pages.course.courses')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+        // return view('frontend.pages.course.courses');
     }
 
     public function single_course($title, $content_title = null)
@@ -102,11 +163,33 @@ class FrontendController extends Controller
         $string = file_get_contents(public_path("courses/$title.json"));
         $course_contents = json_decode($string, true);
 
-        return view('frontend.pages.course.course_detials', compact('course_contents', 'title', 'content_title'));
+        $view = view('frontend.pages.course.course_detials', compact('course_contents', 'title', 'content_title'))->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+
+        // return view('frontend.pages.course.course_detials', compact('course_contents', 'title', 'content_title'));
     }
 
     public function contact()
     {
-        return view('frontend.pages.contact');
+        $view = view('frontend.pages.contact')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+
+        // return view('frontend.pages.contact');
     }
 }
