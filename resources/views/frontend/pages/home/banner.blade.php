@@ -1,7 +1,7 @@
 <!-- Start Hero Section -->
 <section class="cs_hero cs_style_1 cs_filled_bg">
     <div class="cs_hero_box">
-        <img src="/cache/assets/website/assets/img/hero_img.png" alt="md-shefat-masum">
+        <img src="/assets/website/assets/img/hero_img.png" alt="md shefat masum">
         <div class="cs_hero_box_in wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <h1 class="cs_hero_title cs_font_92 cs_extra_bold cs_link cs_gradient_text_2">
                 Shefat Masum
