@@ -4,7 +4,7 @@
     <!-- <meta http-equiv="refresh" content="5"> -->
     @php
         $des = "
-            Hi I am Shefat, a dedicated software engineer passionate about crafting efficient,
+            A dedicated software engineer passionate about crafting efficient,
             innovative solutions for complex challenges in the tech industry.
         ";
     @endphp
@@ -57,6 +57,5 @@
     <meta name="twitter:card" content="summary_large_image">
 
     @if (env('APP_ENV') != 'local')
-    <link rel="manifest" href="/manifest.json">
-    {{-- <script src="{{ asset('/main.js') }}" defer></script> --}}
+    <script src="{{ asset('/main.js') }}" defer></script>
     @endif
