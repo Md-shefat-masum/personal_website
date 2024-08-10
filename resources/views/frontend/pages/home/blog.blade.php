@@ -16,7 +16,7 @@
                         </svg>
                     </p>
                     <h2 class="cs_section_title cs_font_48 cs_semi_bold">
-                        My Latest
+                        My Latest&nbsp;
                         <span class="cs_accent_color">articles</span>
                     </h2>
                     <div class="cs_height_25 cs_height_lg_10"></div>
