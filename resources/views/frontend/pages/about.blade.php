@@ -2,8 +2,8 @@
     $meta = [
         // "meta" => [],
         'seo' => [
-            'title' => 'about',
-            'image' => '/dummy/small/img-2.jpg',
+            'title' => 'About Shefat Masum',
+            // 'image' => '/dummy/small/img-2.jpg',
         ],
     ];
 @endphp
