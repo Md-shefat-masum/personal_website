@@ -129,7 +129,7 @@ class FrontendController extends Controller
             $content = (object) $contents[$index];
         }
 
-        $view = view('frontend.pages.blog.blog_details', compact('contents'))->render();
+        $view = view('frontend.pages.blog.blog_details', compact('content'))->render();
         $view = str_replace("\\a", "", $view);
         $view = str_replace("\r", "", $view);
         $view = str_replace("\n", "", $view);
