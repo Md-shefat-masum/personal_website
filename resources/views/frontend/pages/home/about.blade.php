@@ -1,7 +1,7 @@
 <!-- Start About Section -->
 <section class="position-relative">
     <div class="position-absolute cs_about_shape_2">
-        <img src="/cache/assets/website/assets/img/about_shape_2.svg" alt="">
+        <img src="/assets/website/assets/img/about_shape_2.svg" alt="">
     </div>
     <div class="cs_height_150 cs_height_lg_80"></div>
     <div class="container">
@@ -9,7 +9,7 @@
             <div class="col-lg-6">
                 <div class="cs_image_box cs_style_1 position-relative">
                     <img class="position-absolute cs_about_shape"
-                        src="/cache/assets/website/assets/img/about_shape_1.svg" alt="About Shefat Masum">
+                        src="/assets/website/assets/img/about_shape_1.svg" alt="About Shefat Masum">
                     <img class="w-100" src="/cache/assets/website/assets/img/about-shefat-masum.png" alt="About Shefat Masum">
                     <div class="cs_happy_client position-absolute cs_white_bg d-flex align-items-center cs_radius_20 cs_gap_15 wow fadeInRight"
                         data-wow-duration="0.8s" data-wow-delay="0.2s">
