@@ -22,7 +22,7 @@
                                 </svg>
                             </p>
                             <h2 class="cs_section_title cs_font_48 cs_semi_bold">
-                                What
+                                What&nbsp;
                                 <span class="cs_accent_color">my well wishers</span>
                                 <br>have to say<br>
                                 <span class="cs_accent_color_2">about me</span>
