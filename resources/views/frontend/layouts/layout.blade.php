@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    {{-- @include('frontend.layouts.includes.pwa') --}}
+    @include('frontend.layouts.includes.pwa')
     @if (!isset($seo))
         @include('frontend.layouts.includes.meta', [
             'seo' => (object) [
@@ -18,10 +18,10 @@
         @include('frontend.layouts.includes.meta', ['seo' => (object) $seo])
     @endif
 
-    <link rel="fabicon" type="image/png" sizes="16x16" href="{{ asset('/cache/favicon.ico') }}">
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/style.css">
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/custom.css">
+    <link rel="fabicon" type="image/png" sizes="16x16" href="{{ asset('/favicon.ico') }}">
+    <link rel="stylesheet" href="/assets/website/assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/custom.css">
 
     <script type="application/ld+json">
         {
@@ -71,7 +71,7 @@
                 <div class="cs_main_header_in">
                     <div class="cs_main_header_left">
                         <a class="cs_site_branding" href="/">
-                            <img src="/cache/assets/website/assets/img/logo.png" height="76px" width="86px"
+                            <img src="/assets/website/assets/img/logo.png" height="76px" width="86px"
                                 alt="Logo">
                         </a>
                     </div>
@@ -98,7 +98,7 @@
     <!-- Start Footer -->
     <footer class="cs_footer cs_style_1 cs_filled_bg position-relative">
         <div class="position-absolute cs_footer_shape_1">
-            <img src="/cache/assets/website/assets/img/footer_shape.svg" alt="">
+            <img src="/assets/website/assets/img/footer_shape.svg" alt="">
         </div>
         <div class="container">
             <div class="cs_footer_cta">
@@ -134,19 +134,19 @@
 
     {{-- <script src="{{ asset('/assets/js/plugins/turbolinks.min.js') }}"></script> --}}
 
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/fontawesome.min.css">
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/odometer-theme-default.css">
-    <link rel="stylesheet" href="/cache/assets/website/assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/plugins/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/plugins/odometer-theme-default.css">
+    <link rel="stylesheet" href="/assets/website/assets/css/plugins/animate.css">
 
-    <script src="{{ asset('/cache/assets/website/assets/js/plugins/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('/cache/assets/js/plugins/localforage.min.js') }}"></script>
-    <script src="{{ asset('/cache/assets/js/plugins/sweetalert.js') }}"></script>
-    <script src="{{ asset('/cache/assets/js/plugins/axios.js') }}"></script>
-    <script src="{{ asset('/cache/assets/website/assets/js/plugins/gsap.min.js') }}"></script>
-    <script src="{{ asset('/cache/assets/website/assets/js/plugins/odometer.min.js') }}"></script>
-    <script src="{{ asset('/cache/assets/website/assets/js/main.js') }}"></script>
+    <script src="{{ asset('/assets/website/assets/js/plugins/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/plugins/localforage.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/plugins/sweetalert.js') }}"></script>
+    <script src="{{ asset('/assets/js/plugins/axios.js') }}"></script>
+    <script src="{{ asset('/assets/website/assets/js/plugins/gsap.min.js') }}"></script>
+    <script src="{{ asset('/assets/website/assets/js/plugins/odometer.min.js') }}"></script>
+    <script src="{{ asset('/assets/website/assets/js/main.js') }}"></script>
     @stack('cjs')
-    <script defer src="{{ asset('/cache/assets/js/frontend.js') }}"></script>
+    <script defer src="{{ asset('/assets/js/frontend.js') }}"></script>
 
     @if (env('APP_ENV') != 'local')
         <!-- Google tag (gtag.js) -->
