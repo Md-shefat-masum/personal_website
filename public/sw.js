@@ -77,6 +77,7 @@ var precachedAssets = [
     '/assets/website/assets/img/hero/hero_about_2.jpg',
     '/assets/website/assets/img/hero_img - Copy.png',
     '/assets/website/assets/img/hero_img.png',
+    '/assets/website/assets/img/about-shefat-masum.png',
     '/assets/website/assets/img/icon/Quote.svg',
     '/assets/website/assets/img/icon/about_icon_1.svg',
     '/assets/website/assets/img/icon/about_icon_2.svg',
