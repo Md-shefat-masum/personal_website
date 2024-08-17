@@ -47,10 +47,10 @@ class FrontendController extends Controller
     {
         // $view = Redis::get('home_page');
         $view = view('frontend.home')->render();
-        $view = str_replace("\\a", "", $view);
-        $view = str_replace("\r", "", $view);
-        $view = str_replace("\n", "", $view);
-        $view = str_replace("    ", "", $view);
+        $view = str_replace("\\a", " ", $view);
+        $view = str_replace("\r", " ", $view);
+        $view = str_replace("\n", " ", $view);
+        $view = str_replace("    ", " ", $view);
 
         return response()->make($view, 200, [
             "Content-Type" => "text/html; charset=UTF-8",
@@ -87,6 +87,21 @@ class FrontendController extends Controller
     public function portfolio()
     {
         $view = view('frontend.pages.portfolio')->render();
+        $view = str_replace("\\a", "", $view);
+        $view = str_replace("\r", "", $view);
+        $view = str_replace("\n", "", $view);
+        $view = str_replace("    ", "", $view);
+
+        return response()->make($view, 200, [
+            "Content-Type" => "text/html; charset=UTF-8",
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+        // return view('frontend.pages.portfolio');
+    }
+
+    public function privacy_policy()
+    {
+        $view = view('frontend.pages.privacy_policy')->render();
         $view = str_replace("\\a", "", $view);
         $view = str_replace("\r", "", $view);
         $view = str_replace("\n", "", $view);
