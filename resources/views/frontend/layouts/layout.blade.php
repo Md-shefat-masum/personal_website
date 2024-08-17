@@ -51,6 +51,8 @@
 
 <body>
     @if (env('APP_ENV') != 'local')
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1929583040335094"
+     crossorigin="anonymous"></script>
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9MCWSJ7" height="0" width="0"
